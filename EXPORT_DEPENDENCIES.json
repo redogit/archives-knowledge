@@ -1,0 +1,1321 @@
+{
+  "schema": "scoped-repository-dependencies/v1",
+  "workspace": "archives-knowledge",
+  "policy": "Dependencies retain source paths, bytes, modes and identity. Duplication does not transfer ownership.",
+  "files": [
+    {
+      "path": "Other-Projects-/projects/research/S1024 Compression Lab/README.md",
+      "source_repository": "Other-Projects-",
+      "source_revision": "369683cc173b8887361aec7a1e3c23016f229578",
+      "git_blob": "287f55c566528472dbdbbc123618a34f669a5a73",
+      "mode": "100644",
+      "sha256": "6a98e2d4f79eebfcf982619d7995b8a31b961bf85cadba7e7997f5dc8ebd5982",
+      "reason": "Archive test imports sections1024 and validates locked compression carrier; copy the bounded compression project with its provenance."
+    },
+    {
+      "path": "Other-Projects-/projects/research/S1024 Compression Lab/RESEARCH.md",
+      "source_repository": "Other-Projects-",
+      "source_revision": "369683cc173b8887361aec7a1e3c23016f229578",
+      "git_blob": "c88b1d4186c32943f33d3d2ff8cdf8ebb6f326d9",
+      "mode": "100644",
+      "sha256": "513ea9a831c7a6abd350d21e638b44e995373c90729d1c4f429c96cbe4900c83",
+      "reason": "Archive test imports sections1024 and validates locked compression carrier; copy the bounded compression project with its provenance."
+    },
+    {
+      "path": "Other-Projects-/projects/research/S1024 Compression Lab/demo.py",
+      "source_repository": "Other-Projects-",
+      "source_revision": "369683cc173b8887361aec7a1e3c23016f229578",
+      "git_blob": "07497cad4b2a0c6d066cba0eb33913dee1a20841",
+      "mode": "100644",
+      "sha256": "fa0603245119bec7a69181382758fd340e9e809395ed4669d8e50b0efbec086b",
+      "reason": "Archive test imports sections1024 and validates locked compression carrier; copy the bounded compression project with its provenance."
+    },
+    {
+      "path": "Other-Projects-/projects/research/S1024 Compression Lab/learning_probe.py",
+      "source_repository": "Other-Projects-",
+      "source_revision": "369683cc173b8887361aec7a1e3c23016f229578",
+      "git_blob": "3f8eb29017695459036ff64654e5fa2fa1f96a95",
+      "mode": "100644",
+      "sha256": "fe944cc1cbb1875f99e3e562615047e89c4b0ca82a8e2e103ddd23e6f83ee7d6",
+      "reason": "Archive test imports sections1024 and validates locked compression carrier; copy the bounded compression project with its provenance."
+    },
+    {
+      "path": "Other-Projects-/projects/research/S1024 Compression Lab/sections1024.py",
+      "source_repository": "Other-Projects-",
+      "source_revision": "369683cc173b8887361aec7a1e3c23016f229578",
+      "git_blob": "fc77b8a1d2e19ca81c4831a6d4225e9defac5c41",
+      "mode": "100644",
+      "sha256": "a2fd74aff787b4d47aa10d8c580bba4db9d8b96e0a487746a6166692031e6f85",
+      "reason": "Archive test imports sections1024 and validates locked compression carrier; copy the bounded compression project with its provenance."
+    },
+    {
+      "path": "Other-Projects-/projects/research/S1024 Compression Lab/tests/test_core.py",
+      "source_repository": "Other-Projects-",
+      "source_revision": "369683cc173b8887361aec7a1e3c23016f229578",
+      "git_blob": "654371aecd71f732bb24704493c93fcdbbc49077",
+      "mode": "100644",
+      "sha256": "11e4922434058a836b27e2f0214462576fa8b2d116760641698c7046918cd849",
+      "reason": "Archive test imports sections1024 and validates locked compression carrier; copy the bounded compression project with its provenance."
+    },
+    {
+      "path": "Other-Projects-/COMMERCIAL_ACCESS_POLICY.md",
+      "source_repository": "Other-Projects-",
+      "source_revision": "369683cc173b8887361aec7a1e3c23016f229578",
+      "git_blob": "c9a7bf9085173f85a42f8a4812f99bbdef24fc0b",
+      "mode": "100644",
+      "sha256": "f15eeef67cc0f9069a0a6cd3fb0f219ac742cb1d41171cb18fd4f43940d70db2",
+      "reason": "Preserve existing source reuse policy; no new license grant or ownership merger."
+    },
+    {
+      "path": "conscience64/COMMERCIAL_ACCESS_POLICY.md",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "c9a7bf9085173f85a42f8a4812f99bbdef24fc0b",
+      "mode": "100644",
+      "sha256": "f15eeef67cc0f9069a0a6cd3fb0f219ac742cb1d41171cb18fd4f43940d70db2",
+      "reason": "Preserve existing source reuse policy; no new license grant or ownership merger."
+    },
+    {
+      "path": "conscience64/play/assets/core.mjs",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "9565eaba65385bd940a2f2e857954ceed2a41696",
+      "mode": "100644",
+      "sha256": "275a537a262c629196b61ad0d617d445efd023df11c11dd6054441e3acca33d2",
+      "reason": "History state.mjs imports parseDocument and history/test.mjs imports initial/documentFor."
+    },
+    {
+      "path": "conscience64/navigation/context-horizon/index.html",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "03feeca34d5fa5f15929beba73cd7100b53a672e",
+      "mode": "100644",
+      "sha256": "6b24ac34373a1838e35a92564cd2395500c17308ded3c8cecfc515fe45bdd227",
+      "reason": "Literal local asset/module dependency '../navigation/context-horizon/' in conscience64/history/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/navigation/context-horizon/WORK_INVENTORY.json",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "360363cb73376d546bdadd2b0111224858f73808",
+      "mode": "100644",
+      "sha256": "feff42c9c7048830e3cdaafcb3e9abe0bd5bee8410dd09d048575d46408055e5",
+      "reason": "Literal local asset/module dependency '../navigation/context-horizon/WORK_INVENTORY.json' in conscience64/history/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/about/index.html",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "52c7cf57edfb132dd86e834cc0716debeba188b2",
+      "mode": "100644",
+      "sha256": "0aabdaf75f08336324772e84a9425ddedb00776baee9dc582ffeabe74a20d3ff",
+      "reason": "Literal local asset/module dependency '../about/' in conscience64/history/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/navigation/context-horizon/page-adapter.mjs",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "93c04a45ad5baf44bbe26adbdba10995b8965487",
+      "mode": "100644",
+      "sha256": "37f8543adbac51d48151302e876fde36163dc4e50a25caa6a1d6f91272efa52e",
+      "reason": "Literal local asset/module dependency '../navigation/context-horizon/page-adapter.mjs' in conscience64/history/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/voice-anywhere.js",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "70d7695420540a9e39ca8f77a57be64c81b2c943",
+      "mode": "100644",
+      "sha256": "1d77e7d73ff4dfbb8ae709aedd470f8ef3f602cd50ee54b01adc706dea5609de",
+      "reason": "Literal local asset/module dependency '../../voice-anywhere.js' in conscience64/play/assets/core.mjs; original source bytes retained."
+    },
+    {
+      "path": "conscience64/research-song.js",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "09858d55b6388caf37171d2c11542c462eba7e99",
+      "mode": "100644",
+      "sha256": "24d91c2c4c1339583af3688e14881c699f147b0192a3f5c03b28476202521659",
+      "reason": "Literal local asset/module dependency '../../research-song.js' in conscience64/play/assets/core.mjs; original source bytes retained."
+    },
+    {
+      "path": "conscience64/navigation/context-horizon/presenter.mjs",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "6c5d0f6976974caeb2bf6b9f950758ea3415d1fd",
+      "mode": "100644",
+      "sha256": "7d597ce2d629fc1aa74e39589febded43291b127db37d9237f0dcc24d343cd69",
+      "reason": "Literal local asset/module dependency './presenter.mjs' in conscience64/navigation/context-horizon/page-adapter.mjs; original source bytes retained."
+    },
+    {
+      "path": "conscience64/research/projects/index.html",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "10b54800e1e407d4d74f9448c6446a0114c4bb4a",
+      "mode": "100644",
+      "sha256": "598947fa1f5c71fddc5c4c29935de48729c10a10dbb862c23b57469620cdc3b1",
+      "reason": "Literal local asset/module dependency '../../research/projects/' in conscience64/navigation/context-horizon/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/research/projects/public-updates/index.html",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "7edc3470e689416d53eb6f9620d71ce728e7f3fd",
+      "mode": "100644",
+      "sha256": "e5b058a9863a95ad7e6979f0e58fd9cbab9f04fedd00ed861ae35ec0b627459d",
+      "reason": "Literal local asset/module dependency '../../research/projects/public-updates/' in conscience64/navigation/context-horizon/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/analytics/index.html",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "7015c8b70a57bbb97d012c2df870a2a1299855d0",
+      "mode": "100644",
+      "sha256": "4ed5c91768bbabda8d2acb7cc826b5979ec3fb410f044b3bd98f275c9c62d266",
+      "reason": "Literal local asset/module dependency '../../analytics/' in conscience64/navigation/context-horizon/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/coordinate-space/index.html",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "a3fa39e9958201230bb7ebbe1b2ec636836f9541",
+      "mode": "100644",
+      "sha256": "2eafb385f64a95d8d27a6568e7481ad3acb4cfc6d9046e9d38b936185a1bc9f1",
+      "reason": "Literal local asset/module dependency '../../coordinate-space/' in conscience64/navigation/context-horizon/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/index.html",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "3023d1d94d58d6dfdb27b423ae205478f2402384",
+      "mode": "100644",
+      "sha256": "97a91020f7cc90267bf625d76e7b0330373014e7e184dbf88d73209ebecc042f",
+      "reason": "Literal local asset/module dependency '../../play/' in conscience64/navigation/context-horizon/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/mmo/simple/index.html",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "3e713429b7eeee01e7e9fc0ba139457d31390fc7",
+      "mode": "100644",
+      "sha256": "e7de5e721cdccf2553304f58d3462def6b231366512c3cf8ba3bb4ab4f7cbb43",
+      "reason": "Literal local asset/module dependency '../../play/mmo/simple/' in conscience64/navigation/context-horizon/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/mmo/index.html",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "a4c94c64aafe45d6204cbde448cd593deec24276",
+      "mode": "100644",
+      "sha256": "4ed99bdad11eebb1c7fc1a3748dd4a255f10b3b72581efc66e83b6f358b7fd65",
+      "reason": "Literal local asset/module dependency '../../play/mmo/' in conscience64/navigation/context-horizon/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/mmo/forge.html",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "2ed17851cea14b21722f1e732e87c35bf6f6cc6d",
+      "mode": "100644",
+      "sha256": "a0ef25da0f96bfdcc2accb4278ed98ee5ea056397ddc4f0d9214392bc6b08877",
+      "reason": "Literal local asset/module dependency '../../play/mmo/forge.html' in conscience64/navigation/context-horizon/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/explorer-world/index.html",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "be98f695e71bae261d0c8e548c39eaf0eabc4066",
+      "mode": "100644",
+      "sha256": "3821e9e99febd8929447912b2795da6bf3d94d6e8b2e84854d0023cfe551cf82",
+      "reason": "Literal local asset/module dependency '../../play/explorer-world/' in conscience64/navigation/context-horizon/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/mmo-world/index.html",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "df811ad97935ca28909e74b6ef4153295041d9b3",
+      "mode": "100644",
+      "sha256": "dbf7582b392115503536ef0ce80e2612f3c5fe4409fab2fe103b7c67d9e9fe5e",
+      "reason": "Literal local asset/module dependency '../../play/mmo-world/' in conscience64/navigation/context-horizon/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/mmo/web-links.html",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "6973bce5bb587505a3ef6639663e5d425028342d",
+      "mode": "100644",
+      "sha256": "8a6988ff3867a01661677bab4e9db517946e77160904a48d40a493cad79236c9",
+      "reason": "Literal local asset/module dependency '../../play/mmo/web-links.html' in conscience64/navigation/context-horizon/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/computational-chorus/index.html",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "ca18693c8e9871fad7a5e9744751eebb9fc6ae54",
+      "mode": "100644",
+      "sha256": "6646e2c5d439796a3f4ca26323c0d96acbf117b6ed6c1f06dae6f46f0b86339d",
+      "reason": "Literal local asset/module dependency '../../play/computational-chorus/' in conscience64/navigation/context-horizon/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/musilanguage/index.html",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "be7912c844aa2112fbb4a503d1027d6a48620be5",
+      "mode": "100644",
+      "sha256": "40ce6cb09fe320b314dff92afe12359aa309b4269c9a11ab099446af89254082",
+      "reason": "Literal local asset/module dependency '../../play/musilanguage/' in conscience64/navigation/context-horizon/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/musilanguage/radio.html",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "a1c2bcf28c9a4294bddedb64275aa919e7c503d7",
+      "mode": "100644",
+      "sha256": "2b5edf97f7f03ebc2ebbffff4b455c0f6fbcb9b81f83c2f4c9d7233f0a9a7154",
+      "reason": "Literal local asset/module dependency '../../play/musilanguage/radio.html' in conscience64/navigation/context-horizon/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/weave/index.html",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "a27de31bbbd1443342e51fe66bee0b0606398d73",
+      "mode": "100644",
+      "sha256": "f002c3175da88cf6b4d3b54d80372135cc7d557fbeee2b6f4f4f1dbee0936caf",
+      "reason": "Literal local asset/module dependency '../../play/weave/' in conscience64/navigation/context-horizon/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/garden/index.html",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "a14ddff6f9559741d129bebba96e22395c72727e",
+      "mode": "100644",
+      "sha256": "813151fb15a45dd5643b3e927c03cd3301191bb98aaa4ce7c9eb2e7fed676a90",
+      "reason": "Literal local asset/module dependency '../../play/garden/' in conscience64/navigation/context-horizon/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/orbit/index.html",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "798f773579d2eac7af5243435baba6b7f4535a0a",
+      "mode": "100644",
+      "sha256": "0b48eda8e0e4220cdb89294352f6c099ba62a287d32bdef097db12a1f8326ea7",
+      "reason": "Literal local asset/module dependency '../../play/orbit/' in conscience64/navigation/context-horizon/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/steps/index.html",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "16544d31df87200b175ab29e93faaf073a9557b1",
+      "mode": "100644",
+      "sha256": "8e2f57f4942f1b1fffeb68324f1a1bf63953b328be2f3d94d0321580f004af31",
+      "reason": "Literal local asset/module dependency '../../play/steps/' in conscience64/navigation/context-horizon/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/compare/index.html",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "1a5c4193a88e97ac30c9fbd98306c1195bd8cb6f",
+      "mode": "100644",
+      "sha256": "c08b7d5b284f0e14c5993ec9b5431a5388bf414945e4b52544ae50c2272e772f",
+      "reason": "Literal local asset/module dependency '../../play/compare/' in conscience64/navigation/context-horizon/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/navigation/context-horizon/preservation-seeds.json",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "5b70edbe3ef8cbcd10d2382327146f064987692c",
+      "mode": "100644",
+      "sha256": "997551501337cd631e9f36d399cd035f87ccaed86bac93173a7bc38505c21c50",
+      "reason": "Literal local asset/module dependency './preservation-seeds.json' in conscience64/navigation/context-horizon/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/mmo/simple/visual-samples/index.html",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "0a98aa8542daedb4d197258f694157ad04a32208",
+      "mode": "100644",
+      "sha256": "05d9415ad620eb2058e410c2eb420491e13e7521312cba1799f69ae7cb040f86",
+      "reason": "Literal local asset/module dependency '../../play/mmo/simple/visual-samples/' in conscience64/navigation/context-horizon/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/mmo/simple/visual-samples/page-1.html",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "ac89f7b8d940b5e0cca66a1c6e839fd9099fb014",
+      "mode": "100644",
+      "sha256": "4179f91471e9f337bc2cf1b9b25495f8fc96a34b3f0b801a1442d3dce0c79eab",
+      "reason": "Literal local asset/module dependency '../../play/mmo/simple/visual-samples/page-1.html' in conscience64/navigation/context-horizon/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/mmo/simple/visual-samples/page-2.html",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "008929e4fae411260cf79cfb91ec361c2e4a19e0",
+      "mode": "100644",
+      "sha256": "125560419036a58975d5de5f4cb139a5d75e66468cd9e6184e356752bdd633b6",
+      "reason": "Literal local asset/module dependency '../../play/mmo/simple/visual-samples/page-2.html' in conscience64/navigation/context-horizon/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/mmo/simple/visual-samples/page-3.html",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "5410d71d0bfefb2021a7626266e0249a40eaf1a7",
+      "mode": "100644",
+      "sha256": "16b085b0d7091b3a17c45ba3529a15c708f545f4f5ba5018e27bc7353eb34c72",
+      "reason": "Literal local asset/module dependency '../../play/mmo/simple/visual-samples/page-3.html' in conscience64/navigation/context-horizon/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/mmo/simple/visual-samples/page-4.html",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "1925700f8699b406e679e9814009e9caac462ed6",
+      "mode": "100644",
+      "sha256": "068c062a1efdc1659f7014658ec55d51e06a53631aa8371c549daaa60dab42e0",
+      "reason": "Literal local asset/module dependency '../../play/mmo/simple/visual-samples/page-4.html' in conscience64/navigation/context-horizon/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/mmo/simple/visual-samples/page-5.html",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "a3d1d63c2ad48b96bcd083e874c89337065aeff5",
+      "mode": "100644",
+      "sha256": "774ee653bcbf9f5398dcfccbf457ce8c9370f4ef022bb2793332314a6a43e93b",
+      "reason": "Literal local asset/module dependency '../../play/mmo/simple/visual-samples/page-5.html' in conscience64/navigation/context-horizon/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/mmo/simple/visual-samples/page-6.html",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "bd3de85054f17ba4eac9657a2aa8abd4bae73a66",
+      "mode": "100644",
+      "sha256": "e4aeead22870dbf3525f509c5bec025e1f7e067f0a0b35d88a0c14be75ccbee2",
+      "reason": "Literal local asset/module dependency '../../play/mmo/simple/visual-samples/page-6.html' in conscience64/navigation/context-horizon/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/assets/style.css",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "80c4bac97ab1545973a7aee0777033ae0d1a88ff",
+      "mode": "100644",
+      "sha256": "182dd018e47a3dfb60b032b132250bcf0a3174f1d4bb434da4b78dec58acb372",
+      "reason": "Literal local asset/module dependency './assets/style.css' in conscience64/play/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/neon-veil/index.html",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "bb79cd8930f4ca1080ce3963a52371a902a85401",
+      "mode": "100644",
+      "sha256": "a50e8c21d49059d2fe8b5dca3409a925c2c92a304ffa95659f1efe35c96b5422",
+      "reason": "Literal local asset/module dependency './neon-veil/' in conscience64/play/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/GROW_WITH_YOU_GAME_CONTRACT.md",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "e8784cab3e22463aeae7dad7cb5f5c8588d560dd",
+      "mode": "100644",
+      "sha256": "729478981c8e9040f9a84e6d9557af41ce144a45033e4ed5b9a9a22cb754a991",
+      "reason": "Literal local asset/module dependency './GROW_WITH_YOU_GAME_CONTRACT.md' in conscience64/play/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/assets/app.mjs",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "f4b31e1e750d6817dfeed4158beb92653ab18e69",
+      "mode": "100644",
+      "sha256": "762b8513f20a7e2fdba9ee4879bd28bedd4579acdea0726c89f83a5e4a82b8d4",
+      "reason": "Literal local asset/module dependency './assets/app.mjs' in conscience64/play/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/coordinate-space/sha256.js",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "5e2d9667d7c2a44c5602710fd2a3350cfe529202",
+      "mode": "100644",
+      "sha256": "29179f0f61206751a89301ab28cb6ec618092fcb620b7c5509fc43c5be153390",
+      "reason": "Literal local asset/module dependency 'sha256.js' in conscience64/coordinate-space/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/coordinate-space/codec.js",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "a2cf33be1a91880834c9e8566b9fed21a7dfcd72",
+      "mode": "100644",
+      "sha256": "bddd295dbe53bb275642fc3f6259a1694f37808f2e97f96c5bd6689a9ac4ef01",
+      "reason": "Literal local asset/module dependency 'codec.js' in conscience64/coordinate-space/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/coordinate-space/source_file.js",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "55eb008b2610a4721b812b7246eca1274fbfa49c",
+      "mode": "100644",
+      "sha256": "0861a427406b6d15939cd8ee5e61d6d0e99cf25ad5463946d5a225e82a8e7581",
+      "reason": "Literal local asset/module dependency 'source_file.js' in conscience64/coordinate-space/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/coordinate-space/locales.js",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "59aa42d2b1bbbdbc4d563a14ef4989652aec484a",
+      "mode": "100644",
+      "sha256": "f80e9380bfee4308480b94661e419c6013698a55117e7201f8b331c7c23538ff",
+      "reason": "Literal local asset/module dependency 'locales.js' in conscience64/coordinate-space/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/coordinate-space/i18n.js",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "9934b65a06b4811267aaf75fb5d22a55d617d2c8",
+      "mode": "100644",
+      "sha256": "ba415ee059c445fceb1a93b66666482a3952ceebf7c6019ec7b68701d68ac9b9",
+      "reason": "Literal local asset/module dependency 'i18n.js' in conscience64/coordinate-space/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/coordinate-space/ui.js",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "f2bbd19bf64405cc98ced22ddd77d9085ecd509c",
+      "mode": "100644",
+      "sha256": "5b52e3f317bd9706ea1b50a60ffe10109c73ea8192813c8c4a5d3e33cecfa96f",
+      "reason": "Literal local asset/module dependency 'ui.js' in conscience64/coordinate-space/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/coordinate-space/README.md",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "07a0bc7de5ba7fef1d0a68f3f39eab765148b042",
+      "mode": "100644",
+      "sha256": "b0fca49d61b0a2702dc8a4a04685c00a7b2b23db65fe987a4640909a9628dc4b",
+      "reason": "Literal local asset/module dependency 'README.md' in conscience64/coordinate-space/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/coordinate-space/CULTURE_TIME_CONTRACT.md",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "c070c88d666ec0dffcd4aa086e83c45e026e52ee",
+      "mode": "100644",
+      "sha256": "adf8492ee8fa5107be5582b9a962bcf2c1d3b0ea56cf92b433f255b07be75e16",
+      "reason": "Literal local asset/module dependency 'CULTURE_TIME_CONTRACT.md' in conscience64/coordinate-space/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/coordinate-space/LICENSE",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "3a0e797f03d00433ef06d3216d16f5d2f30d45ff",
+      "mode": "100644",
+      "sha256": "37ba7f81fe8880b9640b9e92218891acb1636525e61fc6ed67f59b971949a90b",
+      "reason": "Literal local asset/module dependency 'LICENSE' in conscience64/coordinate-space/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/analytics/styles.css",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "7c3dfd935437e5c705e05ed14bf5ea2beea6aadc",
+      "mode": "100644",
+      "sha256": "c8f7b0f3a4463597be25e0fe56ad547d152b5734392734a0cb0471f04adf8ba8",
+      "reason": "Literal local asset/module dependency 'styles.css' in conscience64/analytics/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/research/projects/research-analytics.md",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "97ac41f4aee70fd2595dcbb154fb036cc24a752a",
+      "mode": "100644",
+      "sha256": "d2ef38cb9f0e7c7321584ca683f411d49eb5efe39d6544adcdae0b3003711eb8",
+      "reason": "Literal local asset/module dependency '../research/projects/research-analytics.md' in conscience64/analytics/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/research/projects/CURRENT.json",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "116ed43d833489ae9cc07adaaf7b1fd2c2227d89",
+      "mode": "100644",
+      "sha256": "43bf2275bdcaae305d6ea5c4316d5e9c4ec1a6ecdf6229b7c460f2a2090b53dc",
+      "reason": "Literal local asset/module dependency '../research/projects/CURRENT.json' in conscience64/analytics/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/analytics/dashboard.mjs",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "7c20276c5d7b0fa02c63c21233f4f5fe04fb4e2b",
+      "mode": "100644",
+      "sha256": "4909fc92c8d63c19a6d29aa2e26081ac152e2e6395650a1d88ad5c4869b231bb",
+      "reason": "Literal local asset/module dependency 'dashboard.mjs' in conscience64/analytics/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/navigation/context-horizon/route-registry.mjs",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "1ca67cb4c066400b44fd07d0a0e7beff9a83d367",
+      "mode": "100644",
+      "sha256": "9bfe6e842442e92e93c9b5cceb73e3ddfe4e01ffab32b48c6a495dd4e738ec8d",
+      "reason": "Literal local asset/module dependency './route-registry.mjs' in conscience64/navigation/context-horizon/presenter.mjs; original source bytes retained."
+    },
+    {
+      "path": "conscience64/navigation/context-horizon/engine.mjs",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "6ee2816acd91e8facf7d1b1cb78da93df298a4d2",
+      "mode": "100644",
+      "sha256": "98e0e3492ec2398aaa02e7b27dc580e4e66e77994e9cacba5ed50c297c073ad7",
+      "reason": "Literal local asset/module dependency './engine.mjs' in conscience64/navigation/context-horizon/presenter.mjs; original source bytes retained."
+    },
+    {
+      "path": "conscience64/navigation/context-horizon/questions.mjs",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "657dad239c0b47b2b8736851f8c562a5ffa79775",
+      "mode": "100644",
+      "sha256": "41adfd3d205d6caeadf6bb36c99fdc5471a0da56d73c57a5f57bfa140bae8717",
+      "reason": "Literal local asset/module dependency './questions.mjs' in conscience64/navigation/context-horizon/presenter.mjs; original source bytes retained."
+    },
+    {
+      "path": "conscience64/navigation/context-horizon/context-horizon.css",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "84017ecc3e30daeb2bf28aa091f34067a3f4ee29",
+      "mode": "100644",
+      "sha256": "aa91a6faa0f34fcbe31c64fcf3eea6d78f4089e36c01d494c64d9f0fdbf2c746",
+      "reason": "Literal local asset/module dependency './context-horizon.css' in conscience64/navigation/context-horizon/presenter.mjs; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/explorer-world/game.css",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "48b8a97641340bcac317129e3c875ccf16f6b240",
+      "mode": "100644",
+      "sha256": "3262c3b5d17ebf17dc52f57e5683bf8008217d9bc798c71e1ecf0100cac8d2b0",
+      "reason": "Literal local asset/module dependency 'game.css' in conscience64/play/explorer-world/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/explorer-world/game.mjs",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "81537c78f393e7a101f5952d8a6780d174d93dfd",
+      "mode": "100644",
+      "sha256": "6fb8970a040ae482a984f16a0d904c8e9168bd760494bd19f23a0037b76cbebc",
+      "reason": "Literal local asset/module dependency 'game.mjs' in conscience64/play/explorer-world/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/mmo-world/forge/index.html",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "cecea0df2463a6dc1469b23a3b6b4b6ea2bbd158",
+      "mode": "100644",
+      "sha256": "de158c741ff3b99a79a1c9827440968881cd788c032c217a5cbfd25c5a812635",
+      "reason": "Literal local asset/module dependency 'forge/' in conscience64/play/mmo-world/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/mmo-world/plugin-contract.json",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "1b6bca51127b7fa4ea38e04e9403143ab37a781e",
+      "mode": "100644",
+      "sha256": "9c69e36464a465d42912cb2744640b3c150e34d1d3e09a73870d48a494c8245d",
+      "reason": "Literal local asset/module dependency 'plugin-contract.json' in conscience64/play/mmo-world/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/mmo-world/plugins/duck-rescue.json",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "77c03d772cfc4ead64ec5f948e56c874e867d147",
+      "mode": "100644",
+      "sha256": "d49aa85d7776f9d81c959f63597107bed5cefbe6b0258f436657b7d5dba218b5",
+      "reason": "Literal local asset/module dependency 'plugins/duck-rescue.json' in conscience64/play/mmo-world/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/research/projects/mmo-world-beta.md",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "7498ce28d0b7da7d46e955cbe345e5dd26fbb91f",
+      "mode": "100644",
+      "sha256": "ed8893b892020169f59b428d251495acd6e72db4f159ca3ad500f533224526f9",
+      "reason": "Literal local asset/module dependency '../../research/projects/mmo-world-beta.md' in conscience64/play/mmo-world/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/mmo-world/companion.mjs",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "8ef4336507a8fe9e74300225d23a54c7e7a9be56",
+      "mode": "100644",
+      "sha256": "6ce6411075e1a213331f360e738485e6a7203d9137f78a02ac9683697978d57d",
+      "reason": "Literal local asset/module dependency 'companion.mjs' in conscience64/play/mmo-world/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/mmo-world/variety-ui.mjs",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "db677833a3219dc1a0931af2df81db8f30d62df6",
+      "mode": "100644",
+      "sha256": "dbc9212b4d37e3aadeee0e4cc6f50e166ae726d44c518641ce917d74cefbd01b",
+      "reason": "Literal local asset/module dependency 'variety-ui.mjs' in conscience64/play/mmo-world/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/musilanguage/single.html",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "05f52f3809ef7068c6aa48470882134dad11b48d",
+      "mode": "100644",
+      "sha256": "da6933f6c2f8721c4e89a94d51f542958bd542dcad38431bae24bea421e0a247",
+      "reason": "Literal local asset/module dependency 'single.html' in conscience64/play/musilanguage/radio.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/API.md",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "8449f37e1a2fd1b4eb04207ebd6db3ecad0c4caa",
+      "mode": "100644",
+      "sha256": "91b0fe4eba112e69abd7e0f8226f8c2e778eea8dac9211d1720098a2e046eccb",
+      "reason": "Literal local asset/module dependency '../../API.md' in conscience64/play/musilanguage/radio.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/musilanguage/engine.js",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "abcd91234cd5e057d928ed4cd0e1f8004a6783fc",
+      "mode": "100644",
+      "sha256": "d8c9e2589c4198918d9a1d96261b91273c5e61c4402bc52f9989a62a9ad4c269",
+      "reason": "Literal local asset/module dependency 'engine.js' in conscience64/play/musilanguage/radio.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/musilanguage/radio.js",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "8d95c82b151f9684abbe51740289b84337c7891b",
+      "mode": "100644",
+      "sha256": "60efa66d0cdf70eec367a9916e1e96a5c05314eccc90a0537b8e4bb484ab311e",
+      "reason": "Literal local asset/module dependency 'radio.js' in conscience64/play/musilanguage/radio.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/musilanguage/utf8-space.js",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "696c6a08a2014e71fe3ec3b43af160e0b43db78e",
+      "mode": "100644",
+      "sha256": "2ec64ccd0b2364a5002c287ae7035089437115724a9040597998a6895ada4c71",
+      "reason": "Literal local asset/module dependency 'utf8-space.js' in conscience64/play/musilanguage/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/musilanguage/style-profiles.js",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "9a575b8d9b3bc0b5e8c68545a99106618d51455c",
+      "mode": "100644",
+      "sha256": "be5efaccc1709e19ae18d7c258b7523c325e0ece23acd5756976fdd0bad8dc70",
+      "reason": "Literal local asset/module dependency 'style-profiles.js' in conscience64/play/musilanguage/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/musilanguage/music64.js",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "5264040292fc7840663fbd04053dd2dc4901bcf4",
+      "mode": "100644",
+      "sha256": "7902e56af03820b5723ce66ca2b8e5481f86af73aa2280829e55c7bbb208657f",
+      "reason": "Literal local asset/module dependency 'music64.js' in conscience64/play/musilanguage/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/musilanguage/listener-floats.js",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "64340f7fac553906f0e24a01546a1cc1d415032c",
+      "mode": "100644",
+      "sha256": "acdc2a6af567cfe95654995f66b0895b4c39d59f66de793a3d7fe64969c6c876",
+      "reason": "Literal local asset/module dependency 'listener-floats.js' in conscience64/play/musilanguage/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/musilanguage/word-forge.js",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "5bdca419844aa13b8c1cf146ddb772949c68f6ec",
+      "mode": "100644",
+      "sha256": "93a16e854265b2876db2ab6298838fcbf9902d901957aa78101130362862b200",
+      "reason": "Literal local asset/module dependency 'word-forge.js' in conscience64/play/musilanguage/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/mmo/style.css",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "594e88218f319b6ae7056ae9a8db934394d990bf",
+      "mode": "100644",
+      "sha256": "192680a19d18d9c07c2b51cbd396b8b862c4f622e5237c7f02580d549bb51737",
+      "reason": "Literal local asset/module dependency 'style.css' in conscience64/play/mmo/forge.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/mmo/REALITY_CANON.md",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "55629a06ede011f9d4c23fc2b786e39ab22ac917",
+      "mode": "100644",
+      "sha256": "4979ef9554a53bf03f40d89b1605f28c4a54ac46a26d3764e3b0c7a2079dc0a9",
+      "reason": "Literal local asset/module dependency 'REALITY_CANON.md' in conscience64/play/mmo/forge.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/mmo/plugin-contract.json",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "a664a7fbc9da059d5906d436727442794fb7b21e",
+      "mode": "100644",
+      "sha256": "ece358b1acc3e67d6913a6f9e7fd942fd277d40037f9c1bfa93e9947a949678c",
+      "reason": "Literal local asset/module dependency 'plugin-contract.json' in conscience64/play/mmo/forge.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/mmo/LINKAGES.md",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "883912c6b328628bc1e4eeebcf85c512106bb1b4",
+      "mode": "100644",
+      "sha256": "532274525d1ccbd8c21ef522d292b9b61c25bceef018e78f4857cc0654a54928",
+      "reason": "Literal local asset/module dependency 'LINKAGES.md' in conscience64/play/mmo/forge.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/mmo/plugins/duck-rescue.json",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "ba79516050b6280284550c9015f4feb51cf879b3",
+      "mode": "100644",
+      "sha256": "b928f9c26eeb0bc4ada9a06d906666f28b49728b02a4504db9d482e6270f8596",
+      "reason": "Literal local asset/module dependency 'plugins/duck-rescue.json' in conscience64/play/mmo/forge.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/mmo/plugin-runtime.js",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "ff35f3ec11d673fc29d0111c7e54267b3e948a72",
+      "mode": "100644",
+      "sha256": "fb071cc3291508f59aa25b896776a2cbc9319653ce888105637d13c980abe409",
+      "reason": "Literal local asset/module dependency 'plugin-runtime.js' in conscience64/play/mmo/forge.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/mmo/forge.js",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "a6442f927c2feb810b04f8c1e03977e780bdef36",
+      "mode": "100644",
+      "sha256": "6141f58ef93a1f462735fd6a4ed415506d15af7cb1b664a4c2eb0a6f615cb4de",
+      "reason": "Literal local asset/module dependency 'forge.js' in conscience64/play/mmo/forge.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/mmo/CURRENT.md",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "67fca8c1810c319b4fc76566c22576155c18c864",
+      "mode": "100644",
+      "sha256": "dfde157cb15214284d4dee365f760006ceae6327cf00062da3a1a2af224a24c5",
+      "reason": "Literal local asset/module dependency 'CURRENT.md' in conscience64/play/mmo/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/mmo/LEVELS.md",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "95526568c010e829d4143465a278e017860aa360",
+      "mode": "100644",
+      "sha256": "aa4328acb538a1df66a7f1c2ebc6c0a834364ef3e6752e8a44525866f8b0a0bb",
+      "reason": "Literal local asset/module dependency 'LEVELS.md' in conscience64/play/mmo/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/mmo/RELEASE_PLAN_2026-11-15.md",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "2da3bb7fc695cf6e990d41c889172d710f7442b9",
+      "mode": "100644",
+      "sha256": "b1c4cd3eb13fc4053dc51bf8a389a8a266e6488fb5010c897f829a80b0550af7",
+      "reason": "Literal local asset/module dependency 'RELEASE_PLAN_2026-11-15.md' in conscience64/play/mmo/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/mmo/save-runtime.js",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "371729353fa9d458f3d4d3b5f6f2acf077763d48",
+      "mode": "100644",
+      "sha256": "6f241f2c81a55b085c5e1d0409a3589a66eaf99f35ff74813f8bda6471387103",
+      "reason": "Literal local asset/module dependency 'save-runtime.js' in conscience64/play/mmo/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/mmo/game.js",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "f5ba913547eb7f8b6d75ba85c3d0c63eab367cc1",
+      "mode": "100644",
+      "sha256": "04e9840287f249a9dc7dc75e2434f7cb0f64d095cd5dfed01a44a4e97f810b49",
+      "reason": "Literal local asset/module dependency 'game.js' in conscience64/play/mmo/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/computational-chorus/chorus.css",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "3cf04753baeb2cfa8a0a37f75e8bd549193750a9",
+      "mode": "100644",
+      "sha256": "eb872faa5786dc7d4a9ece57055adc52816e0f84bec0d88f769f5a365ee17fec",
+      "reason": "Literal local asset/module dependency 'chorus.css' in conscience64/play/computational-chorus/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/computational-chorus/chorus.mjs",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "052532f1be2ebfab20a4df70791b1419ce5a25f4",
+      "mode": "100644",
+      "sha256": "adae8ff0c88ff8107b79415532713b26a1be3e9f1872274f7211d7510add53aa",
+      "reason": "Literal local asset/module dependency 'chorus.mjs' in conscience64/play/computational-chorus/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/mmo/simple/style.css",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "8c2dfad5c549ccd38c74e6edc6e0a0ed4426a261",
+      "mode": "100644",
+      "sha256": "c8fef2ca0107160db51820da2367e183623de8472b1e1006db96fe32c6954aff",
+      "reason": "Literal local asset/module dependency 'style.css' in conscience64/play/mmo/simple/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/mmo/simple/game.js",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "df9893b9ab10d3d474e504b5977bf99b09ff6a69",
+      "mode": "100644",
+      "sha256": "2b8aa0c8ed4f94c72a573ea0d954ded576bdc92007796d9f73f5c6c092e01516",
+      "reason": "Literal local asset/module dependency 'game.js' in conscience64/play/mmo/simple/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/mmo/simple/visual-samples/generated-texture-bible-v1.webp",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "4df2fbb3c4b3bb057c7b4b63a9cc0999efc27b7f",
+      "mode": "100644",
+      "sha256": "37873bff12a8cd62ff6b798e0e80fc251362fc2b406be02aee9a649476423c63",
+      "reason": "Literal local asset/module dependency 'generated-texture-bible-v1.webp' in conscience64/play/mmo/simple/visual-samples/page-6.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/mmo/simple/visual-samples/generated-texture-atlas.webp",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "a2485af9aa36164e06423167b44c541ddeeb2fc7",
+      "mode": "100644",
+      "sha256": "c2afca56e26f63f8a9ecb84944434c4ec70ae039f7ef4df231492006d731ed6c",
+      "reason": "Literal local asset/module dependency 'generated-texture-atlas.webp' in conscience64/play/mmo/simple/visual-samples/page-6.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/mmo/simple/visual-samples/generated-companion-dashboard.webp",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "8dda157cfb1dc13c8d24b7c3f0279754c9b00bbe",
+      "mode": "100644",
+      "sha256": "2fde5363dd3ec91f0d0e2a257e8a63a59b4b72d649e7b88e70e24f31fe5ca8a8",
+      "reason": "Literal local asset/module dependency 'generated-companion-dashboard.webp' in conscience64/play/mmo/simple/visual-samples/page-6.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/mmo/simple/visual-samples/generated-texture-bible-v2.webp",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "51bb65eaae4648f9d1757c0f5fbd06400026bf44",
+      "mode": "100644",
+      "sha256": "b4c4fb1ad1e54c6946a2df2ccee07e8ab282dba086906662900cb0654420939b",
+      "reason": "Literal local asset/module dependency 'generated-texture-bible-v2.webp' in conscience64/play/mmo/simple/visual-samples/page-6.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/mmo/simple/visual-samples/generated-lookback-northpoint.webp",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "9470d7d97a645e0fd36d33dfcad1e18689c9cb2c",
+      "mode": "100644",
+      "sha256": "38fe6698728befdd3ab238973552bb286dd8e67ee2407e15d04c6b0097db87ac",
+      "reason": "Literal local asset/module dependency 'generated-lookback-northpoint.webp' in conscience64/play/mmo/simple/visual-samples/page-6.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/mmo/simple/visual-samples/generated-neon-noir-agent.webp",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "46c580d4390892fba3d4c240e38bcb789f6452e9",
+      "mode": "100644",
+      "sha256": "0c031c0ea4bf670a549579b72352b35c999ce70910e50ebdccb1a160e50c9b3e",
+      "reason": "Literal local asset/module dependency 'generated-neon-noir-agent.webp' in conscience64/play/mmo/simple/visual-samples/page-6.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/mmo/simple/visual-samples/generated-shapeshifter-dossier.webp",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "05f202afeffd5428cd586f3d5efe76e808e4cecd",
+      "mode": "100644",
+      "sha256": "978eb13539bde70e18db4b9dd61f7966d10dc0df30b767b7a6e92721e06103c8",
+      "reason": "Literal local asset/module dependency 'generated-shapeshifter-dossier.webp' in conscience64/play/mmo/simple/visual-samples/page-6.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/research/federation/s1-models/index.html",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "e445ac46f8fa49497ae9d0a333a0b15592a76939",
+      "mode": "100644",
+      "sha256": "6da55db8a08e2326bee8ceef920cf1049df3dbafa9201aeeecaea0bb93e9570a",
+      "reason": "Literal local asset/module dependency '../federation/s1-models/' in conscience64/research/projects/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/research/carrier-surface/index.html",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "66fca56c23a47806e8a9162ac0550ed2d43d426f",
+      "mode": "100644",
+      "sha256": "fee94465cc2cb7261b25a7abccfe52636105f8b3fbab2045a8dc861ab9e1bd19",
+      "reason": "Literal local asset/module dependency '../carrier-surface/' in conscience64/research/projects/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/research/radar/CONVERSATION_WIDE_RADAR_LOCALITY_PARITY_2026-09-20.md",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "fd7bc2a3cd509ca3ba047d42d2bab096d5049a85",
+      "mode": "100644",
+      "sha256": "5f2463a66fd52e91b3438670484e989483018ed95de2d2e1d6874dcdceca427b",
+      "reason": "Literal local asset/module dependency '../radar/CONVERSATION_WIDE_RADAR_LOCALITY_PARITY_2026-09-20.md' in conscience64/research/projects/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/research/projects/projects.json",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "24ecb718a9a79d4abbd724787a756f5bdd734049",
+      "mode": "100644",
+      "sha256": "4269e1d4e028849975b6ecbe2d3a2a16d8716e0e78873a7cfbe54c9afab4f4c1",
+      "reason": "Literal local asset/module dependency './projects.json' in conscience64/research/projects/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/research/projects/public-updates/style.css",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "33e6f90386e1a66b3527118b26b45d0393ac6821",
+      "mode": "100644",
+      "sha256": "429950b822e74c8dfe56332434dc027e7fe95505028c1a24a9ed7fba3ab3401d",
+      "reason": "Literal local asset/module dependency './style.css' in conscience64/research/projects/public-updates/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/research/projects/public-updates/PRIVATE_READER_BOUNDARY.md",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "252dc2d38bfca85d5927118f5705ba5f0673c63d",
+      "mode": "100644",
+      "sha256": "15a4e04e56114ee8ae3c4856fbeb20dfa1450b446bb23317d2a012b62c270779",
+      "reason": "Literal local asset/module dependency './PRIVATE_READER_BOUNDARY.md' in conscience64/research/projects/public-updates/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/research/projects/public-updates/data/latest.json",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "26331dffe5016856e8c9522e50e3b11e8717eb72",
+      "mode": "100644",
+      "sha256": "ee0b993150096eed44ea70714a8e147b98bea665b3dd98c3b155b57f8498ac6a",
+      "reason": "Literal local asset/module dependency './data/latest.json' in conscience64/research/projects/public-updates/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/research/projects/public-updates/app.js",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "2693c6a5623dd5164a691f41c4b3dc2e148133f7",
+      "mode": "100644",
+      "sha256": "8ed62cdf3128d4bc0ae52acc060ff018a02890b7683fab0f0a24dcef79564421",
+      "reason": "Literal local asset/module dependency './app.js' in conscience64/research/projects/public-updates/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/analytics/event-contract.mjs",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "64353b406ce585b5d935ef4ba5401352152fc486",
+      "mode": "100644",
+      "sha256": "ac0ea3a0a3b83da42f969c77b5c6b48b685a85c019f6ae0d3528e060245e081d",
+      "reason": "Literal local asset/module dependency './event-contract.mjs' in conscience64/analytics/dashboard.mjs; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/explorer-world/world.mjs",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "45721c4d324255d8526c61797b32d0e3367f33fa",
+      "mode": "100644",
+      "sha256": "496b7bc4e4b98ca3801ed7c970be3dc9fbda14d3cd19bf5c164c12bc9eb36d67",
+      "reason": "Literal local asset/module dependency './world.mjs' in conscience64/play/explorer-world/game.mjs; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/explorer-world/progress.mjs",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "008d299352caaa4f991e8a5a1d660c2a8e17599a",
+      "mode": "100644",
+      "sha256": "58c9ab399ec599d87c5f7896f0083d13e1ac6824145522fd6679a5a638c645e5",
+      "reason": "Literal local asset/module dependency './progress.mjs' in conscience64/play/explorer-world/game.mjs; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/mmo-world/varieties.mjs",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "17691b87159e10aac15458b65ec245226682e37d",
+      "mode": "100644",
+      "sha256": "4ad8e8e7b1a8bc3cc40606a90b0ff152edf9dde96a0e9e140018ae4b1496223e",
+      "reason": "Literal local asset/module dependency './varieties.mjs' in conscience64/play/mmo-world/variety-ui.mjs; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/mmo-world/protocol-policy.mjs",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "0e8132600b27bbe3252b40a81b75aa76844c4964",
+      "mode": "100644",
+      "sha256": "d3a87e6cce23c7edc2120a79e6766bcc91e0b0bf2f71fae9ee30cfe24f048eec",
+      "reason": "Literal local asset/module dependency './protocol-policy.mjs' in conscience64/play/mmo-world/companion.mjs; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/neon-veil/style.css",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "01625a4c4d01b82e45f528b9047263c0da810096",
+      "mode": "100644",
+      "sha256": "8f9f73c88f4abfc3f18f0b9ed2d33f93def33a3a9f23a66f9320c750d607002e",
+      "reason": "Literal local asset/module dependency 'style.css' in conscience64/play/neon-veil/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/neon-veil/app.js",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "35a478a2b04fff1cff2f5d03323347d9795e9071",
+      "mode": "100644",
+      "sha256": "e7439aafa179a3047cb0ecf307b860436cf1ea2e54667d4324c5e473018ddf8d",
+      "reason": "Literal local asset/module dependency 'app.js' in conscience64/play/neon-veil/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/neon-veil/downloads/NEON_VEIL_WINDOWS_2026-09-29.zip",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "edab89d1f086fdee71552227cdbb82e51771287c",
+      "mode": "100644",
+      "sha256": "36bee8ee441f461d19347a79dec552bd92c329ae0477ca1dd103ee9a17457678",
+      "reason": "Literal local asset/module dependency 'downloads/NEON_VEIL_WINDOWS_2026-09-29.zip' in conscience64/play/neon-veil/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/neon-veil/downloads/NEON_VEIL_LINUX_2026-09-29.zip",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "b5d11e3886d9ad21ad4a867ee933e0f7ead687e5",
+      "mode": "100644",
+      "sha256": "0c994d75798225573a211614400a2d4e9602bceddbbee90389884dde5841595d",
+      "reason": "Literal local asset/module dependency 'downloads/NEON_VEIL_LINUX_2026-09-29.zip' in conscience64/play/neon-veil/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/neon-veil/downloads/NEON_VEIL_MACOS_2026-09-29.zip",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "165ca4705946aee4946ab8cf3c3e5631af128515",
+      "mode": "100644",
+      "sha256": "a0d5ec2e349bdcd15c5b32e4e1fea8b626dce8a0f3da3290d600f05cbe58d852",
+      "reason": "Literal local asset/module dependency 'downloads/NEON_VEIL_MACOS_2026-09-29.zip' in conscience64/play/neon-veil/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/neon-veil/downloads/NEON_VEIL_ANDROID_2026-09-29.zip",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "73e475c8bf877c42fd7dfcbb5811b701737989d9",
+      "mode": "100644",
+      "sha256": "49af08b5044fbd3dea85660c1e86919f55316e1dd8a52c5ba49314e0bafaeaaa",
+      "reason": "Literal local asset/module dependency 'downloads/NEON_VEIL_ANDROID_2026-09-29.zip' in conscience64/play/neon-veil/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/neon-veil/downloads/NEON_VEIL_IPHONE_IPAD_2026-09-29.zip",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "d385d0fc15d979ba6fba33b04de1e0592e6a38db",
+      "mode": "100644",
+      "sha256": "efe84a5ef13e5ef4640f01a02b61c71c636bfab9561c018f8c7f3b898589ee69",
+      "reason": "Literal local asset/module dependency 'downloads/NEON_VEIL_IPHONE_IPAD_2026-09-29.zip' in conscience64/play/neon-veil/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/neon-veil/release.json",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "c4bf460b16c2e0ecd98dc5140bcae241d56e2350",
+      "mode": "100644",
+      "sha256": "3ccf91c3b404642733358206d212ec61e25b0bbbb74ec19f96be71ac56a2b37e",
+      "reason": "Literal local asset/module dependency 'release.json' in conscience64/play/neon-veil/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/assets/i18n.mjs",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "521b83d2ad7d8a4443756d84ef6619b19b00a9d5",
+      "mode": "100644",
+      "sha256": "def120220bb53f055711b356105c8abb4241d92b07a0a5a7fb29e25cca6e0fe0",
+      "reason": "Literal local asset/module dependency './i18n.mjs' in conscience64/play/assets/app.mjs; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/mmo-world/forge/styles.css",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "8565d1b9b8e56fdaa2e2902251cfb615c6887fe9",
+      "mode": "100644",
+      "sha256": "2bb4d1d2e25c04322d1d31b982c6b25ee2e80e6793078c558cc96db310900dff",
+      "reason": "Literal local asset/module dependency 'styles.css' in conscience64/play/mmo-world/forge/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/mmo-world/plugins/README.md",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "1d1fc1497bc8f061a2d0f6bbb84edc2b33bf4ef1",
+      "mode": "100644",
+      "sha256": "1cde2706876b7a006f3598e9063ccc8bc4781fdd7a2a22a01970c65e2b1a347a",
+      "reason": "Literal local asset/module dependency '../plugins/README.md' in conscience64/play/mmo-world/forge/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/mmo-world/plugins/monster-mood-grumpy.json",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "d7a6071cf81e209bae3e1854197511a25aac1550",
+      "mode": "100644",
+      "sha256": "aa2837f75d2dbbafe9c466a7740a33da5c9cb03f55b313c36c356447508d8c1f",
+      "reason": "Literal local asset/module dependency '../plugins/monster-mood-grumpy.json' in conscience64/play/mmo-world/forge/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/mmo-world/plugins/monster-mood-confused.json",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "dba23fb6379e8c666586a8634f13f9308ec92d91",
+      "mode": "100644",
+      "sha256": "49b9f6576cecb9e979b2d11142dcc1bdef00d639d42c3b3e1b1904f83fc825a4",
+      "reason": "Literal local asset/module dependency '../plugins/monster-mood-confused.json' in conscience64/play/mmo-world/forge/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/mmo-world/plugins/monster-mood-delighted.json",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "895b7516677d27df04551d801dfcf34f114ed18c",
+      "mode": "100644",
+      "sha256": "3ea8005ef34b9f4919acd4a13b14f4970c8a8764844e99c240288050a7c7cca7",
+      "reason": "Literal local asset/module dependency '../plugins/monster-mood-delighted.json' in conscience64/play/mmo-world/forge/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/mmo-world/plugins/monster-mood-suspicious.json",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "c7b5e47d692aa23a364f14c22d3ed4230f8cc180",
+      "mode": "100644",
+      "sha256": "b874aa217723df1fbc0f4a2520393bba03397b9fc964d6e0fca66fe39818e22b",
+      "reason": "Literal local asset/module dependency '../plugins/monster-mood-suspicious.json' in conscience64/play/mmo-world/forge/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/mmo-world/plugins/cipher-snap-doubling.json",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "1e04fafdcee7fb8564b8760436757dfc06062b02",
+      "mode": "100644",
+      "sha256": "630f825341f4d5a79b449bbefcdf4e1fe202604d5b991288b3080ad89ac1cd7e",
+      "reason": "Literal local asset/module dependency '../plugins/cipher-snap-doubling.json' in conscience64/play/mmo-world/forge/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/mmo-world/plugins/cipher-snap-letters.json",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "f74be4e7f06e3dc104cb27a9c2bca7434718494f",
+      "mode": "100644",
+      "sha256": "4b7817043d1c808170224e5724dd68df02e64fa3d62499ddec560110dfe9cb45",
+      "reason": "Literal local asset/module dependency '../plugins/cipher-snap-letters.json' in conscience64/play/mmo-world/forge/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/mmo-world/plugins/cipher-snap-symbols.json",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "a870fc766751ce01681781e127170c1905f53ee0",
+      "mode": "100644",
+      "sha256": "dc12272b525b86ab59f1f6af6e011c30ba0f87f830262bb5f4f14e628ffd1988",
+      "reason": "Literal local asset/module dependency '../plugins/cipher-snap-symbols.json' in conscience64/play/mmo-world/forge/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/mmo-world/plugins/make-something-duck-compass.json",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "cf01dacde4aa995d1505658860ea2b2e0f8eaeff",
+      "mode": "100644",
+      "sha256": "b7fde4530476d311dcba98a4ce68b335c3f2aed058523706297da8a0ced9c103",
+      "reason": "Literal local asset/module dependency '../plugins/make-something-duck-compass.json' in conscience64/play/mmo-world/forge/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/mmo-world/plugins/redline-classic.json",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "7130d6f1e72574123514cc05f1ba0d6462bf9867",
+      "mode": "100644",
+      "sha256": "9e6a5439fbb42e778f302a2dc64d8ae1c4fcf8948a0a801fc9857d51c5b36e2d",
+      "reason": "Literal local asset/module dependency '../plugins/redline-classic.json' in conscience64/play/mmo-world/forge/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/mmo-world/forge/forge.mjs",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "ad41c11e02590e11b1b5211a51ac0d4e752b6ff9",
+      "mode": "100644",
+      "sha256": "6fb847976ac0f84f3aaca1430ff6c1eb407012e130f359c239f08950592422f9",
+      "reason": "Literal local asset/module dependency 'forge.mjs' in conscience64/play/mmo-world/forge/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/mmo/simple/core.mjs",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "3f2c940d998b6493492365a4b5fb628ce7cf0024",
+      "mode": "100644",
+      "sha256": "a4c2246b53176da22f2a04b8ad6cc6f523cb5830e00a0202bcc6d43665d2591f",
+      "reason": "Literal local asset/module dependency './core.mjs' in conscience64/play/mmo/simple/game.js; original source bytes retained."
+    },
+    {
+      "path": "conscience64/research/carrier-surface.json",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "05e29d7e10caf55e06348bf8772f25a40618b605",
+      "mode": "100644",
+      "sha256": "3983a085637e6ed96762fd079161f92572913bcd34b9e10213c4be910f90fbba",
+      "reason": "Literal local asset/module dependency '../carrier-surface.json' in conscience64/research/carrier-surface/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/research/federation/s1-models.json",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "049add6a7d7eb60acc0825978e5d231c6b914bf6",
+      "mode": "100644",
+      "sha256": "546407b1ca12e4ae68c84e4b77debe3cde876ef9a16401827f1c1e309025d2cd",
+      "reason": "Literal local asset/module dependency '../s1-models.json' in conscience64/research/federation/s1-models/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/assets/more-i18n.mjs",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "0db57dca3553d0cadb452eb6af60a352b62b0910",
+      "mode": "100644",
+      "sha256": "4e2cc0b70f53e910245d9b82c6a77a449885342131aa405483e6f5b8df0d80c4",
+      "reason": "Literal local asset/module dependency './more-i18n.mjs' in conscience64/play/assets/i18n.mjs; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/mmo-world/plugin-runtime.mjs",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "5bc73b9d3b05b872c573a4e7c72148bd4f0694db",
+      "mode": "100644",
+      "sha256": "cb7100c63315d1a0663886049d5d30c577181d1e0dd43e01a02d8e6467864dee",
+      "reason": "Literal local asset/module dependency '../plugin-runtime.mjs' in conscience64/play/mmo-world/forge/forge.mjs; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/mmo-world/timing-runtime.mjs",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "2b012348360649079dae0bfc55025c76e7179c69",
+      "mode": "100644",
+      "sha256": "d8a0f16fd752692baa4e5da0e694b61624bc134ef610a44d2bf30f2677f4d5ab",
+      "reason": "Literal local asset/module dependency '../timing-runtime.mjs' in conscience64/play/mmo-world/forge/forge.mjs; original source bytes retained."
+    },
+    {
+      "path": "conscience64/play/mmo-world/plugin-policy.mjs",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "d431320a46a0884ac576514c5298f186d44a2d1c",
+      "mode": "100644",
+      "sha256": "3d0057ba521e8c4038e177303b886809bbcca10a9f1f92698098818199656b68",
+      "reason": "Literal local asset/module dependency './plugin-policy.mjs' in conscience64/play/mmo-world/plugin-runtime.mjs; original source bytes retained."
+    }
+  ],
+  "blocked": [],
+  "repairs": [
+    {
+      "path": "Other-Projects-/projects/archives/S1024 Compression Lab",
+      "kind": "compatibility-symlink",
+      "target": "../research/S1024 Compression Lab",
+      "reason": "Restore the already-used source-workspace compatibility path required by Archive/tests/test_archive.py without editing the locked test."
+    }
+  ]
+}

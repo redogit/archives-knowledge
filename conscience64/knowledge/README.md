@@ -1,0 +1,224 @@
+# Conscience64 Direct Knowledge Bridge
+
+This directory adds a direct, append-only knowledge carrier beside the existing Conscience64 browser API and Research Analytics event ledger.
+
+It does **not** turn ingestion into truth. The bridge is a retrieval/review carrier with explicit provenance and visibility boundaries.
+
+```text
+INGESTED != ACCEPTED_AS_FACT
+RELATED != SUPPORTS
+RETRIEVED != CORROBORATED
+REPEATED != INDEPENDENT
+TEST_PASS != PROOF
+PUBLICATION != VALIDATION
+MODEL_AGREEMENT != EVIDENCE
+TRANSPORT_VALIDITY != EVIDENCE_VALIDITY
+```
+
+## Components
+
+- `packet.py` — canonical producer packet validation and deterministic SHA-256 UOIDs.
+- `ledger.py` — append-only JSONL persistence, integrity checking, idempotent exact re-ingestion, sync, and search.
+- `bridge.py` — HTTP ingress/read/sync/search service.
+- `teach_repo.py` — conservative teacher for tracked public UTF-8 repository source.
+- `KNOWLEDGE_PACKET_SCHEMA.json` — producer-facing packet schema.
+
+The existing `window.Conscience64API`, project registry, analytics ledger, ECS/world authority, and research promotion rules remain separate.
+
+## Start locally
+
+From the repository root:
+
+```bash
+export C64_KNOWLEDGE_WRITE_TOKEN='replace-with-a-long-write-token'
+export C64_KNOWLEDGE_READ_TOKEN='replace-with-a-long-read-token'
+python3 -m knowledge.bridge
+```
+
+Both bearer tokens are required and must be at least 16 characters.
+
+Default endpoint: `http://127.0.0.1:8776`
+
+Default runtime ledger: `knowledge/knowledge.jsonl`
+
+The runtime ledger is ignored by Git.
+
+### Exposure guard
+
+Knowledge Bridge v1 is **loopback-only**. It refuses every non-loopback bind, even when credentials are supplied. Remote/private serving is a separate deployment boundary that requires explicit TLS, access-control, retention, and operations evidence before admission.
+
+A write bearer token and a read bearer token of at least 16 characters are required even on loopback. Public packets may still be read without presenting the read bearer, but the server itself will not start without a strong configured read credential for restricted-read capability. Supplying an invalid bearer never silently downgrades authorization.
+
+## Teach one packet
+
+```bash
+curl --fail-with-body \
+  -H "Authorization: Bearer $C64_KNOWLEDGE_WRITE_TOKEN" \
+  -H 'Content-Type: application/json' \
+  --data '{
+    "project":"operator-moonshot",
+    "kind":"HYPOTHESIS",
+    "content":"A bounded hypothesis to review",
+    "source":"human:research-session",
+    "visibility":"restricted",
+    "evidence":"untested",
+    "independence":"same-source",
+    "claim_ceiling":"hypothesis only",
+    "scope":"bounded research note"
+  }' \
+  http://127.0.0.1:8776/v1/knowledge
+```
+
+The server assigns deterministic `packet_uoid`, monotonic `ledger_seq`, unique transport `entry_id`, and server `ingested_at`. Exact packet re-ingestion is idempotent: it returns the original entry rather than manufacturing repeated evidence.
+
+## Read and sync
+
+Unauthenticated knowledge reads return **public packets only**.
+
+```bash
+curl 'http://127.0.0.1:8776/v1/knowledge/sync?after=0&limit=100'
+```
+
+A valid configured read bearer grants access to restricted packets:
+
+```bash
+curl \
+  -H "Authorization: Bearer $C64_KNOWLEDGE_READ_TOKEN" \
+  'http://127.0.0.1:8776/v1/knowledge/search?q=decision%20field&limit=25'
+```
+
+Supplying an invalid read token returns `401`; it is not silently downgraded to a public-only query. Fetching a restricted UOID without read authorization returns `404` so its existence is not disclosed.
+
+## Teach the tracked public repository
+
+Preview first:
+
+```bash
+python3 -m knowledge.teach_repo --root . --dry-run
+```
+
+Then send the tracked source corpus to the local bridge:
+
+```bash
+python3 -m knowledge.teach_repo \
+  --root . \
+  --endpoint http://127.0.0.1:8776 \
+  --write-token "$C64_KNOWLEDGE_WRITE_TOKEN"
+```
+
+The teacher obtains paths from `git ls-files`, accepts bounded UTF-8 text, skips symlinks, skips common secret/key/environment/runtime-ledger paths, chunks source deterministically, and labels every packet:
+
+```text
+kind = REFERENCE
+evidence = source-material
+independence = same-source
+claim_ceiling = repository-carried source; not independently validated
+visibility = public
+```
+
+That means Conscience64 can retrieve and cross-reference its repository corpus without pretending the repository independently validates its own scientific claims.
+
+Do not use this teacher for arbitrary untracked local directories. Restricted/private research should be sent explicitly as `visibility=restricted` packets through the authenticated local bridge.
+
+
+## Private-history method-only packets
+
+A private historical source may inform an abstract problem-solving method, but the source itself is not a Knowledge Bridge payload.
+
+Use `make_private_method_packet(project=..., method=...)` for this bounded carrier. It emits a restricted `METHOD` packet with:
+
+```text
+source = private-history:withheld
+visibility = restricted
+evidence = method-only; not project evidence
+independence = private-origin; requires independent re-grounding
+claim_ceiling = abstract method only; no source or identity claim
+privacy_origin.classification = private-history-method-only
+privacy_origin.independently_regrounded = false
+```
+
+The method-only carrier forbids `parents`, `tags`, `metadata`, `source_revision`, and `observed_at` so those auxiliary channels cannot become private-source pointers. Its UOID therefore identifies the admitted abstract method carrier, not the protected source narrative.
+
+```text
+PRIVATE METHOD MAY INFORM SOLVING
+PRIVATE SOURCE MUST NOT PROPAGATE
+UOID != PUBLICATION PERMISSION
+METHOD CARRIER != PROJECT EVIDENCE
+```
+
+This first boundary is intentionally pre-regrounding and restricted. A later project/public claim must be independently grounded in current authorized project evidence through a separate admission path; changing the marker to claim re-grounding is rejected here.
+
+
+## Structured private-method handoff responses
+
+The loopback bridge has one bounded target-local return path for an already-admitted private-method request.
+
+For this adapter, the inbound Knowledge Packet `packet_uoid` is the handoff identity. A response must link back through:
+
+```text
+in_reply_to = <private METHOD packet_uoid>
+from = redogit/conscience64
+privacy.classification = restricted
+privacy.privacy_origin.classification = private-history-method-only
+privacy.privacy_origin.independently_regrounded = false
+claim_ceiling = abstract method only; no source or identity claim
+```
+
+Allowed target decisions are:
+
+```text
+ACCEPTED
+REJECTED
+NEEDS_EVIDENCE
+UNRESOLVED
+```
+
+The response is stored in a separate append-only response ledger with a deterministic `response_id`. Exact re-ingestion is idempotent.
+
+The pre-regrounding private-method response cannot claim `successor_refs` or `evidence_refs`. It preserves the request UOID in `way_back`.
+
+```text
+REQUEST != COMMAND
+RESPONSE != AUTHORITY_TRANSFER
+ACCEPTED != VERIFIED
+PRIVATE SOURCE MUST NOT PROPAGATE
+AUTHORIZED READ != PUBLICATION PERMISSION
+STRUCTURED_RETURN_PATH != UNIVERSAL_BIDIRECTIONAL_RUNTIME
+```
+
+The response surface is deliberately narrow:
+
+```text
+POST /v1/handoff-response
+GET  /v1/handoff-response/<response_id>
+```
+
+POST requires the write bearer token and an existing admitted private-method request. GET is concealed without authorized restricted-read access. There is no response search, public sync, remote transport, or automatic project-evidence promotion in this slice.
+
+Default response ledger:
+
+`knowledge/handoff-responses.runtime.jsonl`
+
+## HTTP surface
+
+```text
+POST /v1/knowledge
+POST /v1/knowledge/batch
+POST /v1/handoff-response
+GET  /v1/handoff-response/<response_id>
+GET  /v1/knowledge/<packet_uoid>
+GET  /v1/knowledge/sync?after=<ledger_seq>&limit=<n>
+GET  /v1/knowledge/search?q=<text>&project=<id>&kind=<kind>&limit=<n>
+GET  /v1/health
+```
+
+Batch ingestion validates all producer packets before writing any of them.
+
+## Verify
+
+```bash
+python3 -m py_compile knowledge/*.py
+python3 -m unittest discover -s knowledge -p 'test_*.py' -v
+```
+
+The suite covers packet identity, claim/visibility validation, append-only integrity, exact re-ingestion idempotency, corruption detection, public/restricted filtering, authorization, batch atomicity, body bounds, mandatory strong loopback read/write credentials, unconditional non-loopback refusal, repository filtering/chunking, and a live end-to-end repository-teacher smoke test.

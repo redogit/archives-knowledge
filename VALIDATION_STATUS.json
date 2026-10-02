@@ -1,0 +1,150 @@
+{
+  "schema": "standalone-export-status/v1",
+  "workspace": "archives-knowledge",
+  "status": "validated-local-export-with-declared-limitations",
+  "source_bytes_and_modes": "verified against original Git blobs and SHA-256; original checkouts untouched",
+  "historical_scope_files": 102,
+  "dependency_files": 145,
+  "totals": {
+    "passed": 169,
+    "skipped": 0,
+    "additional_successful_checks": 1
+  },
+  "checks": [
+    {
+      "group": "archives-knowledge",
+      "check": "archive",
+      "command": [
+        "python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "projects/archives/Human Expression Archive/tests",
+        "-p",
+        "test_*.py"
+      ],
+      "environment": {},
+      "exit": 0,
+      "summary": [
+        "Ran 6 tests in 0.125s",
+        "OK"
+      ]
+    },
+    {
+      "group": "archives-knowledge",
+      "check": "cooperation",
+      "command": [
+        "python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "projects/cooperation/ChatGPT and Conscience/tests",
+        "-p",
+        "test_*.py"
+      ],
+      "environment": {},
+      "exit": 0,
+      "summary": [
+        "Ran 7 tests in 0.160s",
+        "OK"
+      ]
+    },
+    {
+      "group": "archives-knowledge",
+      "check": "knowledge",
+      "command": [
+        "python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "knowledge",
+        "-p",
+        "test_*.py"
+      ],
+      "environment": {},
+      "exit": 0,
+      "summary": [
+        "Ran 41 tests in 6.665s",
+        "OK"
+      ]
+    },
+    {
+      "group": "archives-knowledge",
+      "check": "garden-build",
+      "command": [
+        "npm",
+        "run",
+        "build"
+      ],
+      "environment": {},
+      "exit": 0,
+      "summary": []
+    },
+    {
+      "group": "archives-knowledge",
+      "check": "garden-test",
+      "command": [
+        "npm",
+        "test"
+      ],
+      "environment": {},
+      "exit": 0,
+      "summary": [
+        "\u2139 tests 113",
+        "\u2139 pass 113",
+        "\u2139 fail 0",
+        "\u2139 skipped 0"
+      ]
+    },
+    {
+      "group": "archives-knowledge",
+      "check": "history",
+      "command": [
+        "node",
+        "--test",
+        "history/knowledge-test.mjs",
+        "history/test.mjs"
+      ],
+      "environment": {},
+      "exit": 0,
+      "summary": [
+        "\u2139 tests 2",
+        "\u2139 pass 2",
+        "\u2139 fail 0",
+        "\u2139 skipped 0"
+      ]
+    }
+  ],
+  "earlier_failed_checks": [
+    {
+      "check": "history",
+      "exit": 1,
+      "timeout_seconds": null,
+      "summary": [
+        "\u2139 tests 1",
+        "\u2139 pass 0",
+        "\u2139 fail 1",
+        "\u2139 skipped 0"
+      ]
+    }
+  ],
+  "root_validation_runner": "exercised successfully",
+  "limitations": [
+    "Chrome/Chromium browser checks could not run because google-chrome is absent.",
+    "Full Windows SDK, Android and native LLVM/MLIR builds were not tested.",
+    "All fifteen original exclusions remain absent; excluded test/projection tools are not claimed as validated.",
+    "Original scope status and original test reports are historical; this is a new export validation, not a replay claim for the old 740-test aggregate.",
+    "Original commits remain intact in the source repositories; unrelated full history is not imported into these scoped exports.",
+    "No remote repository creation, push, Pages publication or hosted deployment was performed."
+  ],
+  "content_scan": {
+    "unique_source_blobs": 1722,
+    "archive_members": 1067,
+    "credential_pattern_findings": 0,
+    "structured_private_origin_true_count": 0,
+    "scope": "Bounded credential and explicit private-origin-marker scan; not a universal personal-data classifier."
+  }
+}

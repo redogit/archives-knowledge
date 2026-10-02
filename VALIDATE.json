@@ -1,0 +1,91 @@
+{
+  "schema": "standalone-export-validation/v1",
+  "checks": [
+    {
+      "name": "archive",
+      "cwd": "Other-Projects-",
+      "command": [
+        "python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "projects/archives/Human Expression Archive/tests",
+        "-p",
+        "test_*.py"
+      ],
+      "environment": {},
+      "timeout_seconds": 300
+    },
+    {
+      "name": "cooperation",
+      "cwd": "Other-Projects-",
+      "command": [
+        "python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "projects/cooperation/ChatGPT and Conscience/tests",
+        "-p",
+        "test_*.py"
+      ],
+      "environment": {},
+      "timeout_seconds": 300
+    },
+    {
+      "name": "knowledge",
+      "cwd": "conscience64",
+      "command": [
+        "python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "knowledge",
+        "-p",
+        "test_*.py"
+      ],
+      "environment": {},
+      "timeout_seconds": 300
+    },
+    {
+      "name": "garden-build",
+      "cwd": "Other-Projects-/projects/tools/knowledge-garden",
+      "command": [
+        "npm",
+        "run",
+        "build"
+      ],
+      "environment": {},
+      "timeout_seconds": 300
+    },
+    {
+      "name": "garden-test",
+      "cwd": "Other-Projects-/projects/tools/knowledge-garden",
+      "command": [
+        "npm",
+        "test"
+      ],
+      "environment": {},
+      "timeout_seconds": 300
+    },
+    {
+      "name": "history",
+      "cwd": "conscience64",
+      "command": [
+        "node",
+        "--test",
+        "history/knowledge-test.mjs",
+        "history/test.mjs"
+      ],
+      "environment": {},
+      "timeout_seconds": 300
+    }
+  ],
+  "not_exercised": [
+    "Chrome/Chromium browser checks (browser absent in preparation environment).",
+    "Windows SDK, Android and full LLVM/MLIR native builds.",
+    "Excluded projection verifier and privacy/lineage documents/tests remain withheld."
+  ]
+}

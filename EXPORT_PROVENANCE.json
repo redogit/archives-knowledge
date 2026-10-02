@@ -1,0 +1,856 @@
+{
+  "schema": "scoped-repository-export/v1",
+  "workspace": "archives-knowledge",
+  "status": "candidate-not-cleared-for-publication",
+  "source_history": "Original checkouts and commits retained unchanged; this is a scoped snapshot, not rewritten history.",
+  "scope": {
+    "id": "archives-knowledge",
+    "name": "Archives and knowledge",
+    "purpose": "Human Expression Archive, Knowledge Garden, Orbit, and source recovery",
+    "repositories": [
+      "Other-Projects-",
+      "conscience64"
+    ],
+    "source_roots": [
+      "Other-Projects-/projects/archives/Human Expression Archive",
+      "Other-Projects-/projects/tools/knowledge-garden",
+      "Other-Projects-/projects/cooperation/ChatGPT and Conscience",
+      "conscience64/knowledge",
+      "conscience64/history",
+      "conscience64/research/source-ingress"
+    ],
+    "entry_points": [
+      "Other-Projects-/projects/archives/Human Expression Archive/README.md",
+      "Other-Projects-/projects/tools/knowledge-garden/README.md",
+      "Other-Projects-/projects/cooperation/ChatGPT and Conscience/README.md",
+      "conscience64/research/projects/orbit-library.md",
+      "conscience64/research/projects/historical-recovery.md"
+    ],
+    "organization_action": "Preserve source locks, historical bytes, access boundaries, and reconstruction labels",
+    "workspace_directory": "redogit/workspaces/archives-knowledge"
+  },
+  "files": [
+    {
+      "path": "Other-Projects-/projects/archives/Human Expression Archive/README.md",
+      "source_repository": "Other-Projects-",
+      "source_revision": "369683cc173b8887361aec7a1e3c23016f229578",
+      "git_blob": "0d241443231c47f7c73b258374e8e9f3fdb53b3b",
+      "mode": "100644",
+      "sha256": "f06eeb99c3d7138f2750e189cd69d2b5cad05ed41761bd683325e12cf0e485f5"
+    },
+    {
+      "path": "Other-Projects-/projects/archives/Human Expression Archive/RIGHTS.md",
+      "source_repository": "Other-Projects-",
+      "source_revision": "369683cc173b8887361aec7a1e3c23016f229578",
+      "git_blob": "4d3573ea7ee65164eca95fc2abb1986ef6bcca6d",
+      "mode": "100644",
+      "sha256": "131c3d91dc62bb8b837109629a850dcb26b1f3d91c7c3c344cfef64983672478"
+    },
+    {
+      "path": "Other-Projects-/projects/archives/Human Expression Archive/build.py",
+      "source_repository": "Other-Projects-",
+      "source_revision": "369683cc173b8887361aec7a1e3c23016f229578",
+      "git_blob": "0af72a1bf5250f5af85d4b55f4d4547961efe19e",
+      "mode": "100644",
+      "sha256": "d021324988a96f8cd8accdfea483295ade5cb69eb5d4326db351c8313938a77c"
+    },
+    {
+      "path": "Other-Projects-/projects/archives/Human Expression Archive/data/accession-01.zip.xz.b64.01",
+      "source_repository": "Other-Projects-",
+      "source_revision": "369683cc173b8887361aec7a1e3c23016f229578",
+      "git_blob": "3b9357fa20630cab998f6fd47f4bffbe96571ecd",
+      "mode": "100644",
+      "sha256": "c1d7075e7b497f5282560391aa3f4ee9ecf7a2404785c465a86e4df96c8fd552"
+    },
+    {
+      "path": "Other-Projects-/projects/archives/Human Expression Archive/data/accession-01.zip.xz.b64.02",
+      "source_repository": "Other-Projects-",
+      "source_revision": "369683cc173b8887361aec7a1e3c23016f229578",
+      "git_blob": "e740c632869500b5580dd887a65a97a4259d7f93",
+      "mode": "100644",
+      "sha256": "f1ceb75b65ef6a3084ce4053fa8f4a816565e7bd0074896188055ecfb1de89be"
+    },
+    {
+      "path": "Other-Projects-/projects/archives/Human Expression Archive/data/accession-01.zip.xz.b64.03",
+      "source_repository": "Other-Projects-",
+      "source_revision": "369683cc173b8887361aec7a1e3c23016f229578",
+      "git_blob": "276e99beec0ada08214cce36c0098027908d89bd",
+      "mode": "100644",
+      "sha256": "74fc8d8e0aaf251bea45d277321f17783ac687e610dce2bb7cf03ded1411c909"
+    },
+    {
+      "path": "Other-Projects-/projects/archives/Human Expression Archive/data/accession-01.zip.xz.b64.04",
+      "source_repository": "Other-Projects-",
+      "source_revision": "369683cc173b8887361aec7a1e3c23016f229578",
+      "git_blob": "466608d183e1e878d23259dd507063b1903e391b",
+      "mode": "100644",
+      "sha256": "4d01463878f79f1565f53aef7b82582d02a05d082ab082d1a331b2a1239c7133"
+    },
+    {
+      "path": "Other-Projects-/projects/archives/Human Expression Archive/data/manifest.json",
+      "source_repository": "Other-Projects-",
+      "source_revision": "369683cc173b8887361aec7a1e3c23016f229578",
+      "git_blob": "960c0670b14724ae140762d87b57783adaaab79f",
+      "mode": "100644",
+      "sha256": "ae02799df4f6bb26cf72db2991113f229d452d42bb9234cae11c9ac0a31c4c25"
+    },
+    {
+      "path": "Other-Projects-/projects/archives/Human Expression Archive/tests/test_archive.py",
+      "source_repository": "Other-Projects-",
+      "source_revision": "369683cc173b8887361aec7a1e3c23016f229578",
+      "git_blob": "8eccee807ff8e5decff875379706a18a892f439b",
+      "mode": "100644",
+      "sha256": "8116039a935b8ffb1f78d0642385976ee411b0636dd9acfc85655087d7a2b886"
+    },
+    {
+      "path": "Other-Projects-/projects/cooperation/ChatGPT and Conscience/.gitignore",
+      "source_repository": "Other-Projects-",
+      "source_revision": "369683cc173b8887361aec7a1e3c23016f229578",
+      "git_blob": "566401863c7ef31dee4d63526cfef72f71c74c38",
+      "mode": "100644",
+      "sha256": "86de6d560faaf0c549db825612461a372a349c62d5e9bf6cdd3741a374a813b6"
+    },
+    {
+      "path": "Other-Projects-/projects/cooperation/ChatGPT and Conscience/CLAIMS.json",
+      "source_repository": "Other-Projects-",
+      "source_revision": "369683cc173b8887361aec7a1e3c23016f229578",
+      "git_blob": "c533e31091b380308e4619c559d20ce6251dac40",
+      "mode": "100644",
+      "sha256": "28730dcb41226b9f635491488ea8cf8399cba048a8f6b0d5fcbc553757764283"
+    },
+    {
+      "path": "Other-Projects-/projects/cooperation/ChatGPT and Conscience/PROJECT.json",
+      "source_repository": "Other-Projects-",
+      "source_revision": "369683cc173b8887361aec7a1e3c23016f229578",
+      "git_blob": "9b1baa06ad5e2b676b0a31ec03334dcc6ec8c76c",
+      "mode": "100644",
+      "sha256": "2fa7fd80bdd6833a89f87a64a12ae2e1ee7bcd16d09fc965faa4bf67ccdbef16"
+    },
+    {
+      "path": "Other-Projects-/projects/cooperation/ChatGPT and Conscience/PROVENANCE.json",
+      "source_repository": "Other-Projects-",
+      "source_revision": "369683cc173b8887361aec7a1e3c23016f229578",
+      "git_blob": "ffafcfb8827c113cebddb63e84952ad3160f9cf1",
+      "mode": "100644",
+      "sha256": "fd2082e73aeebac5c771ec9356fb2116495ffda174f0564d20221e4b7c547019"
+    },
+    {
+      "path": "Other-Projects-/projects/cooperation/ChatGPT and Conscience/README.md",
+      "source_repository": "Other-Projects-",
+      "source_revision": "369683cc173b8887361aec7a1e3c23016f229578",
+      "git_blob": "95df1a992766d626565dd1cc5357b67a6c636f0d",
+      "mode": "100644",
+      "sha256": "6f696ad3b536d93fc00bb4ed0dc402a97f1696049bbfcb383d90d34de02a74c9"
+    },
+    {
+      "path": "Other-Projects-/projects/cooperation/ChatGPT and Conscience/VALIDATION.json",
+      "source_repository": "Other-Projects-",
+      "source_revision": "369683cc173b8887361aec7a1e3c23016f229578",
+      "git_blob": "2657b14bfdef849dc98761b20a02bc5d32f08f01",
+      "mode": "100644",
+      "sha256": "19440233c33a699b0e3a3081269ea31438e87263075217fe546182f93cbb58f7"
+    },
+    {
+      "path": "Other-Projects-/projects/cooperation/ChatGPT and Conscience/demo.py",
+      "source_repository": "Other-Projects-",
+      "source_revision": "369683cc173b8887361aec7a1e3c23016f229578",
+      "git_blob": "b7fcb406ecbd936a94b2b52e839cf97dd3829b52",
+      "mode": "100644",
+      "sha256": "0af6b743a3fcc54d2f3b88c7a78b6a4412089d85787862260f5240208d17ba50"
+    },
+    {
+      "path": "Other-Projects-/projects/cooperation/ChatGPT and Conscience/docs/COOPERATION.md",
+      "source_repository": "Other-Projects-",
+      "source_revision": "369683cc173b8887361aec7a1e3c23016f229578",
+      "git_blob": "a272b416e234389c1167da07ff86ca6c00c1715a",
+      "mode": "100644",
+      "sha256": "32b077d49d2ee9d15385bf27ad529635aa3734b390d6d2927fda66a7ea997fb1"
+    },
+    {
+      "path": "Other-Projects-/projects/cooperation/ChatGPT and Conscience/evidence/benchmark-summary.json",
+      "source_repository": "Other-Projects-",
+      "source_revision": "369683cc173b8887361aec7a1e3c23016f229578",
+      "git_blob": "e3ac70831d0dcdb2e6360a5d89f66855bf436c2c",
+      "mode": "100644",
+      "sha256": "7b48592c8e7227a9330f3f4d102bf54a2cc8effb923468f82a624906c49236f0"
+    },
+    {
+      "path": "Other-Projects-/projects/cooperation/ChatGPT and Conscience/evidence/coop002-acceptance.json",
+      "source_repository": "Other-Projects-",
+      "source_revision": "369683cc173b8887361aec7a1e3c23016f229578",
+      "git_blob": "8952fd192b3938c5b3daebd2229d63a002a9b69b",
+      "mode": "100644",
+      "sha256": "0b817e0808b28042f69c118930c45bed6369ea4841496cc7a25ad6a6d5090369"
+    },
+    {
+      "path": "Other-Projects-/projects/cooperation/ChatGPT and Conscience/evidence/publication-api.log",
+      "source_repository": "Other-Projects-",
+      "source_revision": "369683cc173b8887361aec7a1e3c23016f229578",
+      "git_blob": "317d93cd11ccf5af9aef2a0908f9bf9717756ed0",
+      "mode": "100644",
+      "sha256": "6f6b225e00fdbdedaec878e7450e8a35801ccae39b599a9771af092c30e6e151"
+    },
+    {
+      "path": "Other-Projects-/projects/cooperation/ChatGPT and Conscience/evidence/publication-tests.log",
+      "source_repository": "Other-Projects-",
+      "source_revision": "369683cc173b8887361aec7a1e3c23016f229578",
+      "git_blob": "62f911821b40e4b9265cf67297c5602e96ed86ba",
+      "mode": "100644",
+      "sha256": "f90acc23ab285c30bea817a36a1e3b12f54c709106c3a9496966c9c155466b77"
+    },
+    {
+      "path": "Other-Projects-/projects/cooperation/ChatGPT and Conscience/patches/001-boundary.patch",
+      "source_repository": "Other-Projects-",
+      "source_revision": "369683cc173b8887361aec7a1e3c23016f229578",
+      "git_blob": "08fe155edfee02935a70384bc0fd8e3784486a49",
+      "mode": "100644",
+      "sha256": "b6b470c2c01f4e6440321ef690e934116b64d6fa7ad8c3b2eb38f6ce837dd2ea"
+    },
+    {
+      "path": "Other-Projects-/projects/cooperation/ChatGPT and Conscience/patches/002-history.patch",
+      "source_repository": "Other-Projects-",
+      "source_revision": "369683cc173b8887361aec7a1e3c23016f229578",
+      "git_blob": "7395e8f13c3666b02c24e83af7f95dd3a3cce228",
+      "mode": "100644",
+      "sha256": "d2e4fa35b8717b5f84ae06790e7d20d5ba84c12589ef944a890ec7c6efa8e9a4"
+    },
+    {
+      "path": "Other-Projects-/projects/cooperation/ChatGPT and Conscience/source-lock.json",
+      "source_repository": "Other-Projects-",
+      "source_revision": "369683cc173b8887361aec7a1e3c23016f229578",
+      "git_blob": "d4439e1ba315714b1c05c2ba836dddde1467db04",
+      "mode": "100644",
+      "sha256": "968d03fe76194b276b82cd09b329c7a1654dd853326421da078df101498a7ee5"
+    },
+    {
+      "path": "Other-Projects-/projects/cooperation/ChatGPT and Conscience/src/stabilizer_adaptive.py",
+      "source_repository": "Other-Projects-",
+      "source_revision": "369683cc173b8887361aec7a1e3c23016f229578",
+      "git_blob": "48a2e56461e4cb095babc94220806afe4a919027",
+      "mode": "100644",
+      "sha256": "73d1b98268fd1b892b1f8b88d1ea24bd1cd0dc25bfb0fd995315906309b30309"
+    },
+    {
+      "path": "Other-Projects-/projects/cooperation/ChatGPT and Conscience/src/stabilizer_matched.py",
+      "source_repository": "Other-Projects-",
+      "source_revision": "369683cc173b8887361aec7a1e3c23016f229578",
+      "git_blob": "5f32f977f30d98af0f3ee3addf8a13faea14c52d",
+      "mode": "100644",
+      "sha256": "994709be782172ef5420a761485e69959c4659981509425011fa12679590ec71"
+    },
+    {
+      "path": "Other-Projects-/projects/cooperation/ChatGPT and Conscience/tests/api_smoke.mjs",
+      "source_repository": "Other-Projects-",
+      "source_revision": "369683cc173b8887361aec7a1e3c23016f229578",
+      "git_blob": "21305e23ef687b253a50ef5f3551f02902a5be35",
+      "mode": "100644",
+      "sha256": "9120b0d8ac4f3d098bbc08010151cb9420fe6e51fa7c02d3faad4402b9637835"
+    },
+    {
+      "path": "Other-Projects-/projects/cooperation/ChatGPT and Conscience/tests/test_stabilizers.py",
+      "source_repository": "Other-Projects-",
+      "source_revision": "369683cc173b8887361aec7a1e3c23016f229578",
+      "git_blob": "d35c2c091393774763500a9d6138bab26e21f319",
+      "mode": "100644",
+      "sha256": "17a17a3e0508e2ddce0e2d1bd1e2fad5236b8b1b6be3d1c3df697339c380dabe"
+    },
+    {
+      "path": "Other-Projects-/projects/cooperation/ChatGPT and Conscience/tools/materialize_sandbox.py",
+      "source_repository": "Other-Projects-",
+      "source_revision": "369683cc173b8887361aec7a1e3c23016f229578",
+      "git_blob": "cdcdef2275dfd85b0c5deaf954afb7d114ace0cf",
+      "mode": "100644",
+      "sha256": "a97b610bc4dc83a31792a0dabe4951436d01ed50de730f65c2ced8fd859cd420"
+    },
+    {
+      "path": "Other-Projects-/projects/tools/knowledge-garden/.gitignore",
+      "source_repository": "Other-Projects-",
+      "source_revision": "369683cc173b8887361aec7a1e3c23016f229578",
+      "git_blob": "567609b1234a9b8806c5a05da6c866e480aa148d",
+      "mode": "100644",
+      "sha256": "181314065df2f2fdaf920b1a8b5311daa216a2d6489a06ada5b49cc514d89417"
+    },
+    {
+      "path": "Other-Projects-/projects/tools/knowledge-garden/README.md",
+      "source_repository": "Other-Projects-",
+      "source_revision": "369683cc173b8887361aec7a1e3c23016f229578",
+      "git_blob": "674c27e15ef3c331a0aedf2eb7b4d27691cba328",
+      "mode": "100644",
+      "sha256": "f17827bb7ce0841c2cf6a357ce6577adc1cb8967d1b2ed458a3caa434aaf0e71"
+    },
+    {
+      "path": "Other-Projects-/projects/tools/knowledge-garden/aspects.mjs",
+      "source_repository": "Other-Projects-",
+      "source_revision": "369683cc173b8887361aec7a1e3c23016f229578",
+      "git_blob": "80af3483e00a0e54b24aac314607306d47dec83c",
+      "mode": "100644",
+      "sha256": "80ca353546faa84d9affbe1010fe2c78ee0c70adfcf11903a431b505e7d078b8"
+    },
+    {
+      "path": "Other-Projects-/projects/tools/knowledge-garden/catalog.mjs",
+      "source_repository": "Other-Projects-",
+      "source_revision": "369683cc173b8887361aec7a1e3c23016f229578",
+      "git_blob": "d6bbdbb0061ad1a599b02be076a82d83edb7bb93",
+      "mode": "100644",
+      "sha256": "bff89e3633e559bc2207636361038e13501c0c9db5ae8b9ccff25cbbc8048917"
+    },
+    {
+      "path": "Other-Projects-/projects/tools/knowledge-garden/catalog.schema.json",
+      "source_repository": "Other-Projects-",
+      "source_revision": "369683cc173b8887361aec7a1e3c23016f229578",
+      "git_blob": "971722c6d0ef5fa07348bc4fdcf9ec984064d020",
+      "mode": "100644",
+      "sha256": "aae2033cc10e11f06125c61b80bf95ea6cab723512d15111618851930d7004b7"
+    },
+    {
+      "path": "Other-Projects-/projects/tools/knowledge-garden/compiler.mjs",
+      "source_repository": "Other-Projects-",
+      "source_revision": "369683cc173b8887361aec7a1e3c23016f229578",
+      "git_blob": "66cd907131172ba7ba4caf05ad0f9f8af42aa411",
+      "mode": "100644",
+      "sha256": "84b4b3365f460d1edb291b621ac3f9a16cf87fa36e68bd0fb19fee16853f8800"
+    },
+    {
+      "path": "Other-Projects-/projects/tools/knowledge-garden/data/catalog.json",
+      "source_repository": "Other-Projects-",
+      "source_revision": "369683cc173b8887361aec7a1e3c23016f229578",
+      "git_blob": "b1df0ad0683178c34ea6ab25823f310693b228d3",
+      "mode": "100644",
+      "sha256": "73e42f30a443455358c6c81575404228da03e79066cec536b8b22f6c65944a18"
+    },
+    {
+      "path": "Other-Projects-/projects/tools/knowledge-garden/docs/ASPECTS.md",
+      "source_repository": "Other-Projects-",
+      "source_revision": "369683cc173b8887361aec7a1e3c23016f229578",
+      "git_blob": "a65c40d9def7a05a48c42386df7cb9a8e2009257",
+      "mode": "100644",
+      "sha256": "3bd8552582722751903afc9278d258cb9ef4b1fe57db27c45e69f23d9b87847e"
+    },
+    {
+      "path": "Other-Projects-/projects/tools/knowledge-garden/docs/CATALOG_GUIDE.md",
+      "source_repository": "Other-Projects-",
+      "source_revision": "369683cc173b8887361aec7a1e3c23016f229578",
+      "git_blob": "3399c6b87eeffb246da664340ec494345b8ab590",
+      "mode": "100644",
+      "sha256": "565ed7bd36a7e5e6b9cbbb5d982c44b56fe005bd98e40ff5b87a440773c852af"
+    },
+    {
+      "path": "Other-Projects-/projects/tools/knowledge-garden/docs/DEPLOYMENT.md",
+      "source_repository": "Other-Projects-",
+      "source_revision": "369683cc173b8887361aec7a1e3c23016f229578",
+      "git_blob": "a6db8b1c33945b2231db63eeb680a4aeee159e33",
+      "mode": "100644",
+      "sha256": "5763b8eb115abce48423c525ed77ae0d2b6f2d213d77538f42c60820f5a4c647"
+    },
+    {
+      "path": "Other-Projects-/projects/tools/knowledge-garden/docs/EXECUTION.md",
+      "source_repository": "Other-Projects-",
+      "source_revision": "369683cc173b8887361aec7a1e3c23016f229578",
+      "git_blob": "825be0d014863a82db8bc120c3295d9df40da260",
+      "mode": "100644",
+      "sha256": "7a3c88cf4a462c06cff765e6935d541146f8924e7b85eda50884f72fe26f8e26"
+    },
+    {
+      "path": "Other-Projects-/projects/tools/knowledge-garden/docs/SOURCE_REVIEW.md",
+      "source_repository": "Other-Projects-",
+      "source_revision": "369683cc173b8887361aec7a1e3c23016f229578",
+      "git_blob": "196f7cd1c84bf9e2b957d65d889a8e5ba9c431a4",
+      "mode": "100644",
+      "sha256": "6d04deaf7fb95d7ebb470c40edeb0cb24b7a0cb5a40925351bc2d5a37fe6ee05"
+    },
+    {
+      "path": "Other-Projects-/projects/tools/knowledge-garden/docs/VERIFICATION.md",
+      "source_repository": "Other-Projects-",
+      "source_revision": "369683cc173b8887361aec7a1e3c23016f229578",
+      "git_blob": "d97867cc8665e3678b1b97f8d4a0ed31bace596d",
+      "mode": "100644",
+      "sha256": "d8093be09be20640b9ddab59c1284446c4d52ea3481fd4e72a228d83b1315393"
+    },
+    {
+      "path": "Other-Projects-/projects/tools/knowledge-garden/evidence/COMPILATION_BENCHMARK.json",
+      "source_repository": "Other-Projects-",
+      "source_revision": "369683cc173b8887361aec7a1e3c23016f229578",
+      "git_blob": "682df728801db2b8bd21a9a900cbc246ecd19c16",
+      "mode": "100644",
+      "sha256": "c65376245962c0ea7576f58622c3ceda5e0de1980e00364d20a980103401308e"
+    },
+    {
+      "path": "Other-Projects-/projects/tools/knowledge-garden/evidence/COMPILATION_PRELIMINARY.json",
+      "source_repository": "Other-Projects-",
+      "source_revision": "369683cc173b8887361aec7a1e3c23016f229578",
+      "git_blob": "83f6998680c5ab06112e9bcd5108fe752772cb28",
+      "mode": "100644",
+      "sha256": "712fa1dcef2cad95832dd9d833a476c8e3596e189ced59bf58fa99211b5b5bb1"
+    },
+    {
+      "path": "Other-Projects-/projects/tools/knowledge-garden/openapi.json",
+      "source_repository": "Other-Projects-",
+      "source_revision": "369683cc173b8887361aec7a1e3c23016f229578",
+      "git_blob": "805273e06e28cdafa63861296fcaf33f76487344",
+      "mode": "100644",
+      "sha256": "d5a6576f3f587172423f35d4db9b1393f2e2501d48bc2754e6f35e43ef48955d"
+    },
+    {
+      "path": "Other-Projects-/projects/tools/knowledge-garden/package.json",
+      "source_repository": "Other-Projects-",
+      "source_revision": "369683cc173b8887361aec7a1e3c23016f229578",
+      "git_blob": "0456ca3b32f0f45a7232fa9eff0cf39800697561",
+      "mode": "100644",
+      "sha256": "f731a0e91deea4705968706a61e7556c3465ed2671365d0eabd5cae5f5b5099b"
+    },
+    {
+      "path": "Other-Projects-/projects/tools/knowledge-garden/public/app.js",
+      "source_repository": "Other-Projects-",
+      "source_revision": "369683cc173b8887361aec7a1e3c23016f229578",
+      "git_blob": "e6a07e940729a97838b12fa3e3fc80cdd9e807e8",
+      "mode": "100644",
+      "sha256": "18def4ba848023b656c93b996c93bd592f5180f520b2d5615968b6a8dfd11072"
+    },
+    {
+      "path": "Other-Projects-/projects/tools/knowledge-garden/public/index.html",
+      "source_repository": "Other-Projects-",
+      "source_revision": "369683cc173b8887361aec7a1e3c23016f229578",
+      "git_blob": "1fe8fe02262129de02ad9ff627a6e946e075fb65",
+      "mode": "100644",
+      "sha256": "73aceb1f7ba487b1addd31c69c4fae5dc7dd20cf0eb00b6ab4ed70b7367011c3"
+    },
+    {
+      "path": "Other-Projects-/projects/tools/knowledge-garden/public/styles.css",
+      "source_repository": "Other-Projects-",
+      "source_revision": "369683cc173b8887361aec7a1e3c23016f229578",
+      "git_blob": "05b9bb1ed25a1aa689236c0755397143c143b727",
+      "mode": "100644",
+      "sha256": "e0bd57d305e69ba8b41f9649253da437f0a40bb0de23f304e6f580da2a39b218"
+    },
+    {
+      "path": "Other-Projects-/projects/tools/knowledge-garden/public/working-set.mjs",
+      "source_repository": "Other-Projects-",
+      "source_revision": "369683cc173b8887361aec7a1e3c23016f229578",
+      "git_blob": "c227c30e75cd0027c5ead6fd1f8643bca186b46b",
+      "mode": "100644",
+      "sha256": "ac032daa653a5fe7de08fa5f89e1b9cb364531424e8f803ee3b45a293a72da75"
+    },
+    {
+      "path": "Other-Projects-/projects/tools/knowledge-garden/server.mjs",
+      "source_repository": "Other-Projects-",
+      "source_revision": "369683cc173b8887361aec7a1e3c23016f229578",
+      "git_blob": "e90998bd29168d58658371bcce009cd6c930d531",
+      "mode": "100644",
+      "sha256": "51aac5089673e73a2ab90120bba6f1fd554778581ed4e49a616cbf736233f0c4"
+    },
+    {
+      "path": "Other-Projects-/projects/tools/knowledge-garden/test/aspects.test.mjs",
+      "source_repository": "Other-Projects-",
+      "source_revision": "369683cc173b8887361aec7a1e3c23016f229578",
+      "git_blob": "941acf6f3533277d931a0de6a3abf3cde4ba6aaf",
+      "mode": "100644",
+      "sha256": "58d282ef33d315402b16dd9b2554f2bb2cbcd6e890d13116b2ce1702d149b51f"
+    },
+    {
+      "path": "Other-Projects-/projects/tools/knowledge-garden/test/catalog.test.mjs",
+      "source_repository": "Other-Projects-",
+      "source_revision": "369683cc173b8887361aec7a1e3c23016f229578",
+      "git_blob": "5c1d0a71313e08f0ad938a33cd6afa8ddb33ff78",
+      "mode": "100644",
+      "sha256": "2d6687a100dbf8fe26710dd7296b5436382873ddf089db0980dbc2d0ca4f71d0"
+    },
+    {
+      "path": "Other-Projects-/projects/tools/knowledge-garden/test/compiler.test.mjs",
+      "source_repository": "Other-Projects-",
+      "source_revision": "369683cc173b8887361aec7a1e3c23016f229578",
+      "git_blob": "e3fd6749356cc49f7e41dd23c694a862d1a3232f",
+      "mode": "100644",
+      "sha256": "62b168d6ca8645e312a4bbc597377d481c60d8c4e2f9ae45b6a2efe00d41a999"
+    },
+    {
+      "path": "Other-Projects-/projects/tools/knowledge-garden/test/fixtures.mjs",
+      "source_repository": "Other-Projects-",
+      "source_revision": "369683cc173b8887361aec7a1e3c23016f229578",
+      "git_blob": "df0993d642ed5a996e9d44c4a22a96f9ce4de436",
+      "mode": "100644",
+      "sha256": "e90c742762bf96963930a30e2d5199d55b373155de8eaa40e086941842bc3129"
+    },
+    {
+      "path": "Other-Projects-/projects/tools/knowledge-garden/test/server.test.mjs",
+      "source_repository": "Other-Projects-",
+      "source_revision": "369683cc173b8887361aec7a1e3c23016f229578",
+      "git_blob": "724b05870fc18a09b861995749d0268ab8582286",
+      "mode": "100644",
+      "sha256": "872c91685168f96dc720eb765bb760c4605cf2c8af2339b587320202b7d6ed53"
+    },
+    {
+      "path": "Other-Projects-/projects/tools/knowledge-garden/test/ui-state.test.mjs",
+      "source_repository": "Other-Projects-",
+      "source_revision": "369683cc173b8887361aec7a1e3c23016f229578",
+      "git_blob": "d0e0dbef2c81fb9c302e1804ae47f0ccbc69465f",
+      "mode": "100644",
+      "sha256": "cd4d69c0999da25519eece63912b83e87e484bd1d471cc7d806909faecbce850"
+    },
+    {
+      "path": "Other-Projects-/projects/tools/knowledge-garden/test/working-set.test.mjs",
+      "source_repository": "Other-Projects-",
+      "source_revision": "369683cc173b8887361aec7a1e3c23016f229578",
+      "git_blob": "00e5b1f31581455c2c0b6c9e36b9020b1e492c0a",
+      "mode": "100644",
+      "sha256": "9a0612c6452e0fb44f6d422f9ec4800308e23b745a1671525a66bd526b7ce9ea"
+    },
+    {
+      "path": "Other-Projects-/projects/tools/knowledge-garden/tools/benchmark.mjs",
+      "source_repository": "Other-Projects-",
+      "source_revision": "369683cc173b8887361aec7a1e3c23016f229578",
+      "git_blob": "ebf2ce18035f5d9bb31447297c4fcb47eb2dfe80",
+      "mode": "100644",
+      "sha256": "88518892dd1e434e1904e092afa1e0d141e9d94390a94fda1fa45dadf6839149"
+    },
+    {
+      "path": "Other-Projects-/projects/tools/knowledge-garden/tools/build.mjs",
+      "source_repository": "Other-Projects-",
+      "source_revision": "369683cc173b8887361aec7a1e3c23016f229578",
+      "git_blob": "fcbe63cc9555fa49f569a321dc407436e77cd696",
+      "mode": "100644",
+      "sha256": "25853bbb35a96826acb49b4c3dcdff7625688f56eec4f462792a8ab55585c4d6"
+    },
+    {
+      "path": "Other-Projects-/projects/tools/knowledge-garden/working-set.schema.json",
+      "source_repository": "Other-Projects-",
+      "source_revision": "369683cc173b8887361aec7a1e3c23016f229578",
+      "git_blob": "493aa24ea4eef82700b96385318819a4b95e4ac7",
+      "mode": "100644",
+      "sha256": "246f3f05e0c77d9a4cb5d7d3c2b845efccfa2cf087412c6bb293dcd9096f82e6"
+    },
+    {
+      "path": "conscience64/history/RESTORE.md",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "c0f11e5ad08b5863bd3dd76291d9867cfeb9bdbb",
+      "mode": "100644",
+      "sha256": "a0133c1180b3c5404cadb109fac84de5b9ec5ec9834129d11357b865a86e8c33"
+    },
+    {
+      "path": "conscience64/history/app.mjs",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "688be1e67c97472f3ad46951e98ba8b519fb0aac",
+      "mode": "100644",
+      "sha256": "81e522e56eb8366f8cfae108f72d5689e61ea41539ad12dee5d38c6ef68f7e37"
+    },
+    {
+      "path": "conscience64/history/index.html",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "b70fbe11c35c181799b117f95defe13de0b6a12a",
+      "mode": "100644",
+      "sha256": "653dcf85a9e181be7de7547bb73000606a5e42a874ab5ed1ca0d553cc956ddbc"
+    },
+    {
+      "path": "conscience64/history/knowledge-state.mjs",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "09eee61f6fe0211ae536c622e5e96de21b927519",
+      "mode": "100644",
+      "sha256": "8637802a1d37d93d0c7ca61a8533bb31378e3b37f74049fd1cb9a690e5d80520"
+    },
+    {
+      "path": "conscience64/history/knowledge-test.mjs",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "468e7964e9c937a5fb362b8751d8186634a35587",
+      "mode": "100644",
+      "sha256": "2cec4c6d8da0a820c83b6135cd9885263e07c7c9d0027ee6e378a0505cfda8d2"
+    },
+    {
+      "path": "conscience64/history/knowledge.mjs",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "97735ed4f2b3e5b5ab65e1703cecec14538a79ea",
+      "mode": "100644",
+      "sha256": "af7fdea348a2a445e84588cb7ea9bea005e3e326a577c3d1472c1434728bb641"
+    },
+    {
+      "path": "conscience64/history/state.mjs",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "825c7bd6f954234662252da4294c1a288fcce574",
+      "mode": "100644",
+      "sha256": "77a004821ee9d940abe2b637ebe75b91c4a1cb1cb9e696f3dec39099a486769d"
+    },
+    {
+      "path": "conscience64/history/test.mjs",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "eef7669bc76802b4bdd8130a23f9b4a04939280b",
+      "mode": "100644",
+      "sha256": "97e57fc2cd0f738af99f86761c3c0a04bd4a6abaa18afeab408701e761469830"
+    },
+    {
+      "path": "conscience64/history/versions.json",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "556da2127d47e4a4d9a817923fddc3a68a66a5c2",
+      "mode": "100644",
+      "sha256": "ca4346882ede7076567294871b835f48b28fc075f2856302725b4f04a9ad77ad"
+    },
+    {
+      "path": "conscience64/knowledge/KNOWLEDGE_PACKET_SCHEMA.json",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "3b224589921ca71d501b2ea886e7dfea8f136baf",
+      "mode": "100644",
+      "sha256": "fb72eca6938d039a9d1e4b8d738749b86e9edf069398fcb7a9f416639ff2d060"
+    },
+    {
+      "path": "conscience64/knowledge/README.md",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "73a099faac31d27870e1b57a54b587ac0c0b5bbf",
+      "mode": "100644",
+      "sha256": "7004e74325e4b961362fbdffba3c786b10684a24bc4ff8faf90948b5f25b1682"
+    },
+    {
+      "path": "conscience64/knowledge/__init__.py",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "e702ca072656cad90450fd4fd936becdc5465aac",
+      "mode": "100644",
+      "sha256": "f823f8de17c0e5ff6337f9c1830d32c837c3798a34dec4df5a68c58fea242007"
+    },
+    {
+      "path": "conscience64/knowledge/bridge.py",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "b0ff72de7e38ee466d616c370cfc595b9792a398",
+      "mode": "100644",
+      "sha256": "c8c6df8088258418d4c83a524052f5959fe3a5736f3b51c53ff8c45f69d54381"
+    },
+    {
+      "path": "conscience64/knowledge/handoff.py",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "c3ecb76faaa2287d3b64b7d01f5b173db5838df7",
+      "mode": "100644",
+      "sha256": "b8dd481c548691d6890b7c3ea29bff720d45dbff35a7506b150212b863846978"
+    },
+    {
+      "path": "conscience64/knowledge/ledger.py",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "1570027c1979e9ac6c5548aeceb6edf49e7eca8a",
+      "mode": "100644",
+      "sha256": "6094c634a8d0684a78ae758b0990367b2a26dd4994e5a020c9496d8dab71ba5a"
+    },
+    {
+      "path": "conscience64/knowledge/packet.py",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "0be5da1b9a32bac169b0bd0fd84329c10a82812f",
+      "mode": "100644",
+      "sha256": "b53ae54026114869e4c18a44ff12cace6fbc128f654b3e2f34018879e71bcb11"
+    },
+    {
+      "path": "conscience64/knowledge/teach_repo.py",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "d4280cdad4452b559e5dba14ed3ecc75511e72f7",
+      "mode": "100644",
+      "sha256": "f5ff84d01dfe87ddcb6caaeb6e019448f2a23f918f0178c9bf18bef87c341307"
+    },
+    {
+      "path": "conscience64/knowledge/test_bridge.py",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "cdf0d09195a969bfbb9af8f1d1e12837df0e9a11",
+      "mode": "100644",
+      "sha256": "86e86a1bfecffe0791e211f88e478ff0c73236bed64fa96f541a8ab5e4572c91"
+    },
+    {
+      "path": "conscience64/knowledge/test_handoff_response.py",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "cb0670ef78018319da0affe4662a85c220e4900e",
+      "mode": "100644",
+      "sha256": "de99d43c3eb78a3909948bb42514d013ca1fd491540aa23ad28f2c84c49986b8"
+    },
+    {
+      "path": "conscience64/knowledge/test_ledger.py",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "2233625f1730a13297c62919af4a3ec628408c48",
+      "mode": "100644",
+      "sha256": "7fb804bccc0d86f1160fe4273f5dd8aeb4a062fdc2770d0de2fa4f1dee585b49"
+    },
+    {
+      "path": "conscience64/knowledge/test_packet.py",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "b3aae27538599970cfeeabd93f71c992c425f23c",
+      "mode": "100644",
+      "sha256": "81787aa401e35cbfee5b0f414093f00f9d73fe95bac872dea4a05343ed57acb2"
+    },
+    {
+      "path": "conscience64/knowledge/test_teach_repo.py",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "5287ee13e5d2ded67aac8e36e392ff90d30e7084",
+      "mode": "100644",
+      "sha256": "fb60fdc084d7b711dee477b5a8b75d79d5b67ef4d07a94d70b65e1ab37077cbc"
+    },
+    {
+      "path": "conscience64/research/projects/historical-recovery.md",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "28280c0ba2942a1397b0b9ec575b70b293c38ee1",
+      "mode": "100644",
+      "sha256": "6ce428d5b31b7fc73bd549ebc5fcdb29d45e17cfb7e990c36a16f8e056244613"
+    },
+    {
+      "path": "conscience64/research/projects/orbit-library.md",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "67e802b88f5af80287c27812aca60324562d4b49",
+      "mode": "100644",
+      "sha256": "76db6c3ba93fa1304a49511570ed039b4d933b1f2cbc16db0b5acfa169bb2daa"
+    },
+    {
+      "path": "conscience64/research/source-ingress/2026-09-12/INGRESS_MANIFEST.json",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "c6f43d48f5e8502c62ab8f72c451617816ef4be6",
+      "mode": "100644",
+      "sha256": "ac8a119910a473b394cc081a12edb4c6e006efd7b3869588731939314a0f7679"
+    },
+    {
+      "path": "conscience64/research/source-ingress/2026-09-12/INGRESS_MANIFEST_v2.json",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "4bf1d55384460df4af938095572c24ac44dcc122",
+      "mode": "100644",
+      "sha256": "48874e9d5afe072c9fd3114d7c3e9f558242bbd61d6b72fe70946d7e7ff4630e"
+    },
+    {
+      "path": "conscience64/research/source-ingress/2026-09-12/INGRESS_MANIFEST_v3.json",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "bf0782f4ba86c638038705396fcd22d8c5e1cdbb",
+      "mode": "100644",
+      "sha256": "9c9cc9d3c5e713204a41e0ebaf8a908667445776cb4e8b33dcc5ec3391229fa3"
+    },
+    {
+      "path": "conscience64/research/source-ingress/2026-09-12/RESTORE.md",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "4ecfba361734e6427182ec8b6060e230ca9a17e9",
+      "mode": "100644",
+      "sha256": "715cc9894460d132fbc8f821af94187a6b291be154a3a3b45edcf8f6cab67c72"
+    },
+    {
+      "path": "conscience64/research/source-ingress/2026-09-12/claims/MASTER_GENERAL_CLAIM_EVIDENCE_PROGRAM_2026-09-11.md.gz",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "4897696d929e94f082bd08528099b9d3b0571cd9",
+      "mode": "100644",
+      "sha256": "0c673f521bfd76aba995708a83f9d633ff6455561f2899a03c0af0dd4a719fdc"
+    },
+    {
+      "path": "conscience64/research/source-ingress/2026-09-12/cross-carrier/Cross_Carrier_Field_Transform_Wave_01.md.gz.b64.parts/part-000",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "dce53f71ae521a65b2a669dc75517423b6d294cc",
+      "mode": "100644",
+      "sha256": "696cee05b09d0bf4e8a2af8d56401a4f6052d3222682cdf16331508a89f45009"
+    },
+    {
+      "path": "conscience64/research/source-ingress/2026-09-12/cross-carrier/Cross_Carrier_Field_Transform_Wave_01.md.gz.b64.parts/part-001",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "fef12006f9f23991f64ca27ff4bc5b0753a1c127",
+      "mode": "100644",
+      "sha256": "cc6cb7cdce4d3ec7e8b4552392e36a33ca1e2e817d8453736823ad3c4f85a5e0"
+    },
+    {
+      "path": "conscience64/research/source-ingress/2026-09-12/cross-carrier/Cross_Carrier_Field_Transform_Wave_01.md.gz.b64.parts/part-002",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "3718ac0d85802df7433c7a390cc39fc4bfa903e4",
+      "mode": "100644",
+      "sha256": "bd1f95289a3aed2551deaf05ab7f44bbff9bea6a9cd115e5e79b6acf54c43a0a"
+    },
+    {
+      "path": "conscience64/research/source-ingress/2026-09-12/cross-carrier/Cross_Carrier_Field_Transform_Wave_01.md.gz.b64.parts/part-003",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "b41f5cb169029f8d450fce1d8f7866bf6d758065",
+      "mode": "100644",
+      "sha256": "9ed1d084d9876564e6dac65464986f7d0f766ab96f4a54e3cb0af74762fa3f57"
+    },
+    {
+      "path": "conscience64/research/source-ingress/2026-09-12/cross-carrier/Cross_Carrier_Field_Transform_Wave_01.md.gz.b64.parts/part-004",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "6b111efef0baa6713a7e9062d1d7ff16050ad68c",
+      "mode": "100644",
+      "sha256": "daa07f59f28aaf8d88b76f472b11360989aaabf6c0fec2b7e5586c2338d42c1f"
+    },
+    {
+      "path": "conscience64/research/source-ingress/2026-09-12/cross-carrier/Cross_Carrier_Field_Transform_Wave_01.md.gz.b64.parts/part-005",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "5380bc4597662d988fa3b718d29396cbd55b4461",
+      "mode": "100644",
+      "sha256": "78defce060be10cdecefe994c1ee70067fb76d668d87681a5b691fb6806d232a"
+    },
+    {
+      "path": "conscience64/research/source-ingress/2026-09-12/cross-carrier/PARTS_MANIFEST.json",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "45da452dd617aff0c9fc08c098abd4d94153c401",
+      "mode": "100644",
+      "sha256": "bf452fe984fcb3d4c4b8d1ea2b9db4cb04c36b9342e93f3615ecabb426f024d1"
+    },
+    {
+      "path": "conscience64/research/source-ingress/2026-09-12/manifests/RUNNING_MODELS_MANIFEST.json.gz",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "d91349c1838803224284c01a7938714d17debefc",
+      "mode": "100644",
+      "sha256": "e7244a41ae6e6accbe6b1a622f1b538befbff6fa04efd0380084f082114da4ca"
+    },
+    {
+      "path": "conscience64/research/source-ingress/2026-09-12/maps/CONNECTED_RESEARCH_MAP.md.gz",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "d81caed0560662a0591ed5b8eb80953ef2b01bde",
+      "mode": "100644",
+      "sha256": "2a37ba1b015fab4f99addaec9283a7237de8b843b1a3ed6a964412ac2c671f78"
+    },
+    {
+      "path": "conscience64/research/source-ingress/2026-09-12/recovery/optimized_historical_knowledge_recovery_framework_v2.md",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "9d11d8bcb69029d1aa213f995d74f883237d7dcb",
+      "mode": "100644",
+      "sha256": "33bc13a32d1bd1ffdf753422e768dc690b84fa1894daf7e712f3008c09d9fedc"
+    },
+    {
+      "path": "conscience64/research/source-ingress/2026-09-12/source-native/r3/R3 Scientific Method.md.gz",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "290cb76c931886942600088917c8eca60a92ef9b",
+      "mode": "100644",
+      "sha256": "d794cb2fd7fdde8fdc8b2b640532341ed6cb8689ea8d5945804b5f10ff107c72"
+    },
+    {
+      "path": "conscience64/research/source-ingress/2026-09-12/source-native/tiny-babel/Tiny Babel.md.gz",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "776a1e8518a53b5c66f6c959df24a2ab337c4ce0",
+      "mode": "100644",
+      "sha256": "7cae6e74cb881db4acea3648f338404b1eff6b7f0f2a400372020abc23156be7"
+    }
+  ],
+  "limitations": [
+    "Scope manifest is a navigation scope, not a standalone dependency closure.",
+    "No source bytes or historical evidence rewritten.",
+    "Public content clearance and standalone validation are incomplete.",
+    "Original 740 passing tests and two skips have not been replayed."
+  ]
+}

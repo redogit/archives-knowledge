@@ -1,5 +1,7 @@
 # Archives and knowledge
 
+> **Public page:** https://redogit.github.io/archives-knowledge/ · **Main / About:** https://redogit.github.io/redogit/
+
 Human Expression Archive, Knowledge Garden, Orbit, and source recovery.
 
 This standalone export preserves original source paths and bytes. Necessary cross-project dependencies are copied with explicit provenance; ownership and historical evidence remain with their source projects.
